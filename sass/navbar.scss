@@ -1,0 +1,43 @@
+/* .navbar-light {
+  padding: 1.5em 4em;
+}
+.navbar-light .navbar-nav .nav-link.active {
+  color: #ff7900;
+  font-weight: 900;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #22201E;
+  font-weight: 500;
+
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #ff7900;
+  font-weight: 900;
+
+} */
+
+
+@import 'variables';
+
+
+// ================ reset bootstrap styles
+
+.navbar-light{
+  .navbar-nav{
+    .nav-link{
+      color: $orange;
+    }
+  }
+}
+
+// ================ ======================
+
+.nav-list {
+  li {
+    a{
+      color: $orange;
+    }
+  }
+}
