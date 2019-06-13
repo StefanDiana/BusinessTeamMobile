@@ -1,0 +1,129 @@
+@import 'variables';
+
+
+// ================ reset bootstrap styles
+
+.navbar-light{
+  .nav-logo{
+    img{
+      max-width: 100%;
+      height: auto;
+    }
+    margin: 0;
+    padding: 27px 0;
+  }
+  .navbar-nav{
+    .nav-link{
+      color: $grey;
+    }
+  }
+  padding: 0;
+}
+
+// ================ ======================
+
+.background{
+  background:{
+    image: url(../images/3.jpg);
+    size: cover;
+    position: center;
+  }
+  height: 600px;
+}
+
+.colored_background{
+  background-color: $bg-color;
+  .nav-container{
+    .top-bar{
+      .contact-details{
+        li:first-child a:before{
+          display: none;
+        }
+        a{
+          i{
+            margin-right: 7px;
+          }
+          color: $grey;
+          font-size: 12px;
+          line-height: 32px;
+        }
+        a:hover{
+          color: $orange;
+          text-decoration: none;
+        }
+        a:before{
+          position: relative;
+          content: "|";
+          margin: 0 3px;
+          color: $grey;
+        }
+        list-style: none;
+        display: inline-flex;
+        padding: 0;
+        margin: 0;
+        opacity: 0.8;
+      }
+      .social-list{
+        li:last-child a i{
+          border-right: 1px solid $grey;
+        }
+        li a i{
+          border-left: 1px solid $grey;
+          text-align: center;
+          line-height: 33px;
+          height: 33px;
+          width: 34px;
+          color: $grey;
+        }
+        .fa-facebook-f:hover{
+          background-color: #3b5998;
+          color: $bg-color;
+        }
+        .fa-twitter:hover{
+          background-color: #00acee;
+          color: $bg-color;
+        }
+        .fa-instagram:hover{
+          background-image: -webkit-gradient( linear, left top, right bottom, color-stop(0, #405DE6), color-stop(1, #FD1D1D));
+          color: $bg-color;
+        }
+        .fa-linkedin-in:hover{
+          background-color: #0077B5;
+          color: $bg-color;
+        }
+        margin-bottom: 0px;
+        float: right;
+        list-style: none;
+        display: inline-flex;
+      }
+      border-bottom: 1px solid $grey;
+      opacity: 0.6;
+    }
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 14px;
+  }
+  font-family: 'Open Sans', sans-serif;
+}
+
+.nav-list {
+  .nav-item{
+    .nav-link{
+      color: $grey;
+      font-weight: 900;
+    }
+    .nav-link.active {
+      color: $orange;
+      border-bottom: 2px solid $orange;
+    }
+    .nav-link:hover{
+      color: $orange;
+      border-bottom: 2px solid $orange;
+    }
+    font-size: 14px;
+    font-weight: 300;
+    padding: 28px 15px;
+  }
+}
