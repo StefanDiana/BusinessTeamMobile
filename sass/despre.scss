@@ -1,0 +1,87 @@
+@import 'variables';
+
+
+.bd-example{
+  .carousel-inner{
+    .carousel-item{
+      .carousel-caption{
+        .text-slide-1{
+          h5{
+            font-size: 2em;
+            color: $orange;
+            text-transform: uppercase;
+          }
+          p{
+            font-size: 1.5em;
+          }
+          text-align: center;
+        }
+        .text-slide-2{
+          h5{
+            span{
+              font-size: 2.3em;
+            }
+            font-size: 2em;
+            color: $orange;
+            text-transform: uppercase;
+          }
+          p{
+            font-size: 1.5em;
+          }
+        }
+        .text-slide-3{
+          h5{
+            font-size: 2em;
+            color: $orange;
+            text-transform: uppercase;
+          }
+          p{
+            font-size: 1.5em;
+          }
+        }
+        padding: 50px 100px;
+        bottom: 20%;
+      }
+      height: 64vh;
+    }
+    .drk::after{
+      content: "";
+      position: absolute;
+      display: block;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: $drk;
+      opacity: 0.5;
+      cursor: pointer;
+    }
+  }
+}
+
+// .loader {
+//   height: 4px;
+//   width: 100%;
+//   position: relative;
+//   overflow: hidden;
+//   background-color: $grey;
+// }
+// .loader:before{
+//   display: block;
+//   position: absolute;
+//   content: "";
+//   left: -200px;
+//   width: 200px;
+//   height: 4px;
+//   background-color: $orange;
+//   animation: loading 7s linear infinite;
+// }
+//
+// @keyframes loading {
+//     from {left: -200px; width: 30%;}
+//     50% {width: 30%;}
+//     70% {width: 70%;}
+//     80% { left: 50%;}
+//     95% {left: 120%;}
+//     to {left: 100%;}
+// }
