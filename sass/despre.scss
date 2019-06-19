@@ -1,6 +1,21 @@
 @import 'variables';
 
 
+// ================ reset bootstrap styles
+
+h3.text-center{
+  font-weight: bold;
+}
+
+// ================ ======================
+
+
+body {
+  font-family: $font-family-base;
+}
+
+// Carousel Section
+
 .bd-example{
   .carousel-inner{
     .carousel-item{
@@ -58,6 +73,124 @@
     }
   }
 }
+
+// About Section
+
+section {
+  position: relative;
+}
+
+.section-padded {
+  .container {
+    .section-header {
+      h1{
+        span{
+          font-weight: bold;
+          color: $drk;
+        }
+        text-transform: uppercase;
+        font-size: 2em;
+      }
+      text-align: center;
+      position: relative;
+      margin-bottom: 2em;
+      color: $grey;
+    }
+    .section-header:before {
+      content: "";
+      position: absolute;
+      width: 30%;
+      height: 1px;
+      background-color: $light-color;
+      box-shadow: 0px 1px 0px $bg-color;
+      top: 50%;
+      left: 0;
+      z-index:0;
+    }
+    .section-header:after {
+      content: "";
+      position: absolute;
+      width: 30%;
+      height: 2px;
+      background-color: $light-color;
+      box-shadow: 0px 1px 0px $bg-color;
+      top: 50%;
+      right: 0;
+      z-index:0;
+    }
+    .unstyled {
+      .round-box {
+        .box-inner {
+          img {
+            border-radius: 50%;
+            width: 120px;
+            height: 120px;
+            vertical-align: middle;
+            border: 0;
+          }
+          i {
+            font-size: 40px;
+            color: white;
+            line-height: 1em;
+            text-shadow: 2px 2px 2px black;
+            display: block;
+            position: absolute;
+            width: 1em;
+            height: 1em;
+            top: 50%;
+            left: 50%;
+            margin-top: -0.5em;
+            margin-left: -0.5em;
+          }
+          display: inline-block;
+          position: relative;
+          margin: 0 auto;
+          width: 120px;
+          max-width: 100%;
+          border-radius: 50%;
+        }
+        text-align: center;
+        margin-bottom: 12px;
+        position: relative;
+        z-index: 100;
+      }
+      h3 {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 12px;
+        color: $drk;
+        text-transform: uppercase;
+      }
+      h3:hover {
+        color: $orange;
+      }
+
+      p {
+        margin: 0 0 12px;
+        color: $grey;
+      }
+      a {
+        color: $grey;
+        text-decoration: none;
+      }
+      a:hover {
+        color: $orange;
+      }
+      .more-link {
+        display: block;
+        margin: 12px 0;
+      }
+      margin-left: 0;
+      list-style: none;
+      padding: 0;
+    }
+    padding: 0 4em;
+  }
+  padding: 2em 0;
+}
+
+
+
 
 // .loader {
 //   height: 4px;
