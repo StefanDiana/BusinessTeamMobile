@@ -76,7 +76,7 @@ section {
 
 /* line 83, ../sass/despre.scss */
 .section-padded {
-  padding: 2em 0;
+  padding: 3em 0;
 }
 /* line 84, ../sass/despre.scss */
 .section-padded .container {
@@ -97,9 +97,10 @@ section {
 /* line 87, ../sass/despre.scss */
 .section-padded .container .section-header h1 span {
   font-weight: bold;
-  color: #000;
+  color: #ff7900;
+  text-shadow: 3px 4px 3px #000;
 }
-/* line 99, ../sass/despre.scss */
+/* line 101, ../sass/despre.scss */
 .section-padded .container .section-header:before {
   content: "";
   position: absolute;
@@ -111,7 +112,7 @@ section {
   left: 0;
   z-index: 0;
 }
-/* line 110, ../sass/despre.scss */
+/* line 112, ../sass/despre.scss */
 .section-padded .container .section-header:after {
   content: "";
   position: absolute;
@@ -123,21 +124,29 @@ section {
   right: 0;
   z-index: 0;
 }
-/* line 121, ../sass/despre.scss */
-.section-padded .container .unstyled {
+/* line 123, ../sass/despre.scss */
+.section-padded .container .service_list {
   margin-left: 0;
   list-style: none;
   padding: 0;
+  text-align: center;
 }
-/* line 122, ../sass/despre.scss */
-.section-padded .container .unstyled .round-box {
+/* line 124, ../sass/despre.scss */
+.section-padded .container .service_list .service_item:hover .icon {
+  color: #ff7900;
+  transition: all .2s ease-in-out;
+  transform: scale(1.3);
+  text-shadow: 5px 5px 2px black;
+}
+/* line 130, ../sass/despre.scss */
+.section-padded .container .service_list .round-box {
   text-align: center;
   margin-bottom: 12px;
   position: relative;
   z-index: 100;
 }
-/* line 123, ../sass/despre.scss */
-.section-padded .container .unstyled .round-box .box-inner {
+/* line 131, ../sass/despre.scss */
+.section-padded .container .service_list .round-box .box-inner {
   display: inline-block;
   position: relative;
   margin: 0 auto;
@@ -145,20 +154,20 @@ section {
   max-width: 100%;
   border-radius: 50%;
 }
-/* line 124, ../sass/despre.scss */
-.section-padded .container .unstyled .round-box .box-inner img {
+/* line 132, ../sass/despre.scss */
+.section-padded .container .service_list .round-box .box-inner img {
   border-radius: 50%;
   width: 120px;
   height: 120px;
   vertical-align: middle;
   border: 0;
 }
-/* line 131, ../sass/despre.scss */
-.section-padded .container .unstyled .round-box .box-inner i {
+/* line 139, ../sass/despre.scss */
+.section-padded .container .service_list .round-box .box-inner i {
   font-size: 40px;
-  color: white;
+  color: #fff;
   line-height: 1em;
-  text-shadow: 2px 2px 2px black;
+  text-shadow: 2px 2px 2px #000;
   display: block;
   position: absolute;
   width: 1em;
@@ -168,34 +177,30 @@ section {
   margin-top: -0.5em;
   margin-left: -0.5em;
 }
-/* line 157, ../sass/despre.scss */
-.section-padded .container .unstyled h3 {
+/* line 165, ../sass/despre.scss */
+.section-padded .container .service_list h3 {
   font-size: 18px;
   line-height: 24px;
   margin-bottom: 12px;
   color: #000;
   text-transform: uppercase;
 }
-/* line 164, ../sass/despre.scss */
-.section-padded .container .unstyled h3:hover {
-  color: #ff7900;
-}
-/* line 168, ../sass/despre.scss */
-.section-padded .container .unstyled p {
+/* line 172, ../sass/despre.scss */
+.section-padded .container .service_list p {
   margin: 0 0 12px;
   color: #6c6c6c;
 }
-/* line 172, ../sass/despre.scss */
-.section-padded .container .unstyled a {
+/* line 176, ../sass/despre.scss */
+.section-padded .container .service_list a {
   color: #6c6c6c;
   text-decoration: none;
 }
-/* line 176, ../sass/despre.scss */
-.section-padded .container .unstyled a:hover {
+/* line 180, ../sass/despre.scss */
+.section-padded .container .service_list a:hover {
   color: #ff7900;
 }
-/* line 179, ../sass/despre.scss */
-.section-padded .container .unstyled .more-link {
+/* line 183, ../sass/despre.scss */
+.section-padded .container .service_list .more-link {
   display: block;
   margin: 12px 0;
 }

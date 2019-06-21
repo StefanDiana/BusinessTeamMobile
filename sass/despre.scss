@@ -86,7 +86,9 @@ section {
       h1{
         span{
           font-weight: bold;
-          color: $drk;
+          color: $orange;
+          text-shadow: 3px 4px 3px $drk;
+
         }
         text-transform: uppercase;
         font-size: 2em;
@@ -118,7 +120,13 @@ section {
       right: 0;
       z-index:0;
     }
-    .unstyled {
+    .service_list {
+      .service_item:hover .icon{
+        color: $orange;
+        transition: all .2s ease-in-out;
+        transform: scale(1.3);
+        text-shadow: 5px 5px 2px black;
+      }
       .round-box {
         .box-inner {
           img {
@@ -130,9 +138,9 @@ section {
           }
           i {
             font-size: 40px;
-            color: white;
+            color: $bg-color;
             line-height: 1em;
-            text-shadow: 2px 2px 2px black;
+            text-shadow: 2px 2px 2px $drk;
             display: block;
             position: absolute;
             width: 1em;
@@ -161,10 +169,6 @@ section {
         color: $drk;
         text-transform: uppercase;
       }
-      h3:hover {
-        color: $orange;
-      }
-
       p {
         margin: 0 0 12px;
         color: $grey;
@@ -183,10 +187,11 @@ section {
       margin-left: 0;
       list-style: none;
       padding: 0;
+      text-align: center;
     }
     padding: 0 4em;
   }
-  padding: 2em 0;
+  padding: 3em 0;
 }
 
 
