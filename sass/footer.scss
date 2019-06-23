@@ -1,0 +1,191 @@
+@import 'variables';
+
+// Styles for footer_title and head_line
+.footer_title {
+  color: $footer-color;
+  text-transform: uppercase;
+  padding-bottom: 8px;
+  margin-bottom: 20px;
+  font-size: 1em;
+  font-weight: 700;
+  position: relative;
+  line-height: 20px;
+  .head_line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: $orange;
+    margin: 0;
+    font-weight: 700;
+  }
+}
+
+  ///////////////////////////////////////////
+
+  // Styles for ul
+  .footer_list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    span {
+      color: $footer-color;
+      font-size: 0.9em;
+      font-weight: 400;
+      line-height: 27px;
+      letter-spacing: 0px;
+    }
+  }
+
+  ///////////////////////////////////////////
+
+.footer {
+  background-color: $footer-bgcolor;
+  padding-top: 60px;
+  color: $bg-color;
+  .footer_contact_info {
+    margin-bottom: 45px;
+      i {
+        color: $orange;
+        font-size: 1em;
+      }
+      span {
+          padding-left: 11px;
+      }
+  }
+
+  .footer_services {
+    margin-bottom: 45px;
+    a {
+      text-decoration: none;
+    }
+    span:hover {
+      color: $orange;
+      transition: all 0.3s ease;
+    }
+  }
+
+  .footer_sub_soc{
+    text-decoration: none;
+    .footer_mail_subscribe{
+      p {
+        margin: 0;
+        font-size: 0.9em;
+        font-weight: 400;
+        line-height: 27px;
+      }
+      .subscribe {
+        margin-top: 0.9em;
+        margin-bottom: 1.2em;
+        input[type="text"] {
+          color: $grey;
+          font-size: 0.7em;
+          padding: 6px 12px;
+          border: none;
+          background: $bg-color;
+          border-radius: 2px;
+          outline: none;
+        }
+        input[type="submit"] {
+          background-color: $orange;
+          border: none;
+          display: inline-block;
+          color: $bg-color;
+          font-size: 0.7em;
+          font-weight: 500;
+          text-transform: uppercase;
+          padding: 6px 16px;
+          border-radius: 3px;
+        }
+        input[type="submit"]:hover{
+          background-color: $bg-color;
+          color: $orange;
+          transition: all 0.2s ease-in-out;
+        }
+      }
+    }
+    .footer_social_icons{
+      .social-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        li {
+          display: inline-block;
+          margin-right: 4px;
+          margin-left: 4px;
+        }
+
+        //  ================ reset bootstrap styles
+        a:hover {
+          text-decoration: none;
+        }
+
+        // ================ ======================
+
+        i {
+          font-size: 1.4em;
+          width: 36px;
+          height: 36px;
+          color: $bg-color;
+          line-height: 36px;
+          text-align: center;
+          display: block;
+          border-radius: 2px;
+          transition: all 0.2s ease-in-out;
+        }
+        .fa-facebook-f:hover{
+          background-color: #3b5998;
+          color: $bg-color;
+        }
+        .fa-twitter:hover{
+          background-color: #00acee;
+          color: $bg-color;
+        }
+        .fa-instagram:hover{
+          background-image: -webkit-gradient( linear, left top, right bottom, color-stop(0, #405DE6), color-stop(1, #FD1D1D));
+          color: $bg-color;
+        }
+        .fa-linkedin-in:hover{
+          background-color: #0077B5;
+          color: $bg-color;
+        }
+      }
+    }
+  }
+
+  .copyright_section{
+    margin-top: 20px;
+    padding: 15px 0;
+    letter-spacing: 0.5px;
+    border-top: 1px solid $grey;
+    p {
+    font-size: 13px;
+    color: $footer-color;
+    font-style: italic;
+    margin-bottom: 0;
+    }
+    .secondary_nav {
+      list-style: none;
+      float: right;
+      display: flex;
+      li {
+        margin-left: 1em;
+        padding: 0 10px;
+        border-left: 1px solid $grey;
+        a {
+          color: $footer-color;
+        }
+      }
+      li:first-child {
+        border-left: none;
+      }
+      li a:hover {
+        text-decoration: none;
+        color: $orange;
+        transition: all 0.3s ease;
+      }
+    }
+  }
+}
