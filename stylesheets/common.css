@@ -1,0 +1,44 @@
+/* line 4, ../sass/common.scss */
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* line 8, ../sass/common.scss */
+.more-link {
+  display: block;
+  margin: 12px 0;
+  color: #6c6c6c;
+  text-decoration: none;
+}
+
+/* line 14, ../sass/common.scss */
+.more-link:hover {
+  color: #ff7900;
+  text-decoration: none;
+}
+
+/* line 19, ../sass/common.scss */
+.section_header:before {
+  content: "";
+  position: absolute;
+  width: 30%;
+  height: 1px;
+  background-color: #f2f2f4;
+  box-shadow: 0px 1px 0px #fff;
+  top: 50%;
+  left: 0;
+  z-index: 0;
+}
+
+/* line 30, ../sass/common.scss */
+.section_header:after {
+  content: "";
+  position: absolute;
+  width: 30%;
+  height: 2px;
+  background-color: #f2f2f4;
+  box-shadow: 0px 1px 0px #fff;
+  top: 50%;
+  right: 0;
+  z-index: 0;
+}
