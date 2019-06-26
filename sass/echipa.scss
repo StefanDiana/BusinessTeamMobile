@@ -18,19 +18,12 @@ body {
 
 
 // Team Section
-.team {
-  .title_container {
-    h1 {
-      text {
-        align: center;
-        transform: uppercase;
-      }
-      position: relative;
-      color: #6c6c6c;
-      font-size: 2em;
-      padding-bottom: 10px;
-    }
-  }
+
+.title_container p {
+  color: $grey;
+  text-align: center;
+  margin-top: 10px;
+}
 
   .background_container {
     background:{
@@ -41,7 +34,7 @@ body {
     height: 100%;
     width: 100%;
     text-align: center;
-    .bulb {
+    .member_card {
       margin: 25px auto;
       img {
         width: 100%;
@@ -81,5 +74,4 @@ body {
 
     }
   }
-}
 /////////////////////////////////

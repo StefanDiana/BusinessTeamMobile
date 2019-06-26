@@ -11,20 +11,15 @@ body {
   padding: 0;
 }
 
-/* line 23, ../sass/echipa.scss */
-.team .title_container h1 {
-  position: relative;
+/* line 22, ../sass/echipa.scss */
+.title_container p {
   color: #6c6c6c;
-  font-size: 2em;
-  padding-bottom: 10px;
+  text-align: center;
+  margin-top: 10px;
 }
-/* line 24, ../sass/echipa.scss */
-.team .title_container h1 text {
-  align: center;
-  transform: uppercase;
-}
-/* line 35, ../sass/echipa.scss */
-.team .background_container {
+
+/* line 28, ../sass/echipa.scss */
+.background_container {
   background-color: #fff;
   background-size: cover;
   background-position: center;
@@ -32,50 +27,50 @@ body {
   width: 100%;
   text-align: center;
 }
-/* line 44, ../sass/echipa.scss */
-.team .background_container .bulb {
+/* line 37, ../sass/echipa.scss */
+.background_container .member_card {
   margin: 25px auto;
 }
-/* line 46, ../sass/echipa.scss */
-.team .background_container .bulb img {
+/* line 39, ../sass/echipa.scss */
+.background_container .member_card img {
   width: 100%;
   height: auto;
   cursor: pointer;
   margin: 10px auto;
 }
-/* line 52, ../sass/echipa.scss */
-.team .background_container .bulb img:hover {
+/* line 45, ../sass/echipa.scss */
+.background_container .member_card img:hover {
   transition: all 0.3s ease-in;
 }
-/* line 55, ../sass/echipa.scss */
-.team .background_container .bulb .body_card {
+/* line 48, ../sass/echipa.scss */
+.background_container .member_card .body_card {
   font-weight: 500;
   text-align: center;
 }
-/* line 58, ../sass/echipa.scss */
-.team .background_container .bulb .body_card h5 {
+/* line 51, ../sass/echipa.scss */
+.background_container .member_card .body_card h5 {
   font-size: 24px;
   color: #000;
   font-weight: bold;
 }
-/* line 63, ../sass/echipa.scss */
-.team .background_container .bulb .body_card p {
+/* line 56, ../sass/echipa.scss */
+.background_container .member_card .body_card p {
   font-style: italic;
 }
-/* line 65, ../sass/echipa.scss */
-.team .background_container .bulb .body_card p .button_team {
+/* line 58, ../sass/echipa.scss */
+.background_container .member_card .body_card p .button_team {
   background-color: #ff7900;
   color: #000;
   border: none;
 }
-/* line 70, ../sass/echipa.scss */
-.team .background_container .bulb .body_card p .button_team:hover {
+/* line 63, ../sass/echipa.scss */
+.background_container .member_card .body_card p .button_team:hover {
   background-color: #fff;
   color: #ff7900;
   border: 1px solid #000;
   transition: all 0.3s ease-in;
 }
-/* line 79, ../sass/echipa.scss */
-.team .background_container a:hover {
+/* line 72, ../sass/echipa.scss */
+.background_container a:hover {
   text-decoration: none;
 }
