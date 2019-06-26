@@ -1,8 +1,5 @@
 @import 'variables';
 
-body {
-  font-family: 'Open Sans', sans-serif;
-}
 
 // ================ reset bootstrap styles
 
@@ -25,14 +22,6 @@ body {
 
 // ================ ======================
 
-.background{
-  background:{
-    image: url(../images/3.jpg);
-    size: cover;
-    position: center;
-  }
-  height: 600px;
-}
 
 .colored_background{
   background-color: $bg-color;

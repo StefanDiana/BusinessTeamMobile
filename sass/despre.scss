@@ -3,63 +3,59 @@
 
 // ================ reset bootstrap styles
 
-h3.text-center{
+h3.text-center {
   font-weight: bold;
 }
 
 // ================ ======================
 
 
-body {
-  font-family: $font-family-base;
-}
-
 // Carousel Section
 
-.bd-example{
-  .carousel-inner{
-    .carousel-item{
-      .carousel-caption{
-        .text-slide-1{
-          h5{
+.bd-example {
+  .carousel-inner {
+    .carousel-item {
+      height: 64vh;
+      .carousel-caption {
+        padding: 50px 100px;
+        bottom: 20%;
+        .text_slide1 {
+          text-align: center;
+          h5 {
             font-size: 2em;
             color: $orange;
             text-transform: uppercase;
           }
-          p{
+          p {
             font-size: 1.5em;
           }
-          text-align: center;
         }
-        .text-slide-2{
-          h5{
-            span{
+        .text_slide2 {
+          h5 {
+            span {
               font-size: 2.3em;
             }
             font-size: 2em;
             color: $orange;
             text-transform: uppercase;
           }
-          p{
+          p {
             font-size: 1.5em;
           }
         }
-        .text-slide-3{
-          h5{
+        .text_slide3 {
+          h5 {
             font-size: 2em;
             color: $orange;
             text-transform: uppercase;
           }
-          p{
+          p {
             font-size: 1.5em;
           }
         }
-        padding: 50px 100px;
-        bottom: 20%;
       }
-      height: 64vh;
     }
-    .drk::after{
+    .drk::after {
       content: "";
       position: absolute;
       display: block;
@@ -81,46 +77,20 @@ section {
 }
 
 .section-padded {
+  padding: 3em 0;
   .container {
-    .section-header {
-      h1{
-        span{
-          font-weight: bold;
-          color: $orange;
-          text-shadow: 3px 4px 3px $drk;
-
-        }
-        text-transform: uppercase;
-        font-size: 2em;
-      }
+    padding: 0 4em;
+    .section_header {
       text-align: center;
       position: relative;
       margin-bottom: 2em;
-      color: $grey;
     }
-    .section-header:before {
-      content: "";
-      position: absolute;
-      width: 30%;
-      height: 1px;
-      background-color: $light-color;
-      box-shadow: 0px 1px 0px $bg-color;
-      top: 50%;
-      left: 0;
-      z-index:0;
-    }
-    .section-header:after {
-      content: "";
-      position: absolute;
-      width: 30%;
-      height: 2px;
-      background-color: $light-color;
-      box-shadow: 0px 1px 0px $bg-color;
-      top: 50%;
-      right: 0;
-      z-index:0;
-    }
+
     .service_list {
+      margin-left: 0;
+      list-style: none;
+      padding: 0;
+      text-align: center;
       .service_item:hover .icon{
         color: $orange;
         transition: all .2s ease-in-out;
@@ -128,7 +98,17 @@ section {
         text-shadow: 5px 5px 2px black;
       }
       .round-box {
+        text-align: center;
+        margin-bottom: 12px;
+        position: relative;
+        z-index: 100;
         .box-inner {
+          display: inline-block;
+          position: relative;
+          margin: 0 auto;
+          width: 120px;
+          max-width: 100%;
+          border-radius: 50%;
           img {
             border-radius: 50%;
             width: 120px;
@@ -147,20 +127,12 @@ section {
             height: 1em;
             top: 50%;
             left: 50%;
-            margin-top: -0.5em;
-            margin-left: -0.5em;
+            margin:{
+              top: -0.5em;
+              left: -0.5em;
+            }
           }
-          display: inline-block;
-          position: relative;
-          margin: 0 auto;
-          width: 120px;
-          max-width: 100%;
-          border-radius: 50%;
         }
-        text-align: center;
-        margin-bottom: 12px;
-        position: relative;
-        z-index: 100;
       }
       h3 {
         font-size: 18px;
@@ -173,23 +145,6 @@ section {
         margin: 0 0 12px;
         color: $grey;
       }
-      a {
-        color: $grey;
-        text-decoration: none;
-      }
-      a:hover {
-        color: $orange;
-      }
-      .more-link {
-        display: block;
-        margin: 12px 0;
-      }
-      margin-left: 0;
-      list-style: none;
-      padding: 0;
-      text-align: center;
     }
-    padding: 0 4em;
   }
-  padding: 3em 0;
 }
