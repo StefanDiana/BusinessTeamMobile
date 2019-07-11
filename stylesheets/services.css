@@ -1,0 +1,101 @@
+/* line 6, ../sass/services.scss */
+.navbar-light .nav-logo {
+  padding: 0;
+}
+
+/* line 14, ../sass/services.scss */
+.services_container {
+  padding-top: 2em;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+}
+/* line 20, ../sass/services.scss */
+.services_container .services_element {
+  padding: 35px 0px 50px 0px;
+}
+/* line 22, ../sass/services.scss */
+.services_container .services_element .services_details {
+  padding: 65px 15px 0px 16px;
+}
+/* line 24, ../sass/services.scss */
+.services_container .services_element .services_details h3 {
+  font-weight: 300;
+}
+/* line 28, ../sass/services.scss */
+.services_container .services_element .services_details p {
+  color: #6c6c6c;
+  margin: 0 0 1em;
+}
+/* line 33, ../sass/services.scss */
+.services_container .services_element .services_details a {
+  background-color: #ff7900;
+  color: #fff;
+  border: none;
+  padding: 9px 19px 10px;
+}
+/* line 40, ../sass/services.scss */
+.services_container .services_element .services_details a:hover {
+  -webkit-box-shadow: 3px 5px 20px -5px rgba(0, 0, 0, 0.58);
+  -moz-box-shadow: 3px 5px 20px -5px rgba(0, 0, 0, 0.58);
+  -o-box-shadow: 3px 5px 20px -5px rgba(0, 0, 0, 0.58);
+  box-shadow: 3px 5px 20px -5px rgba(0, 0, 0, 0.58);
+  font-weight: bold;
+}
+/* line 47, ../sass/services.scss */
+.services_container .services_element .services_image img {
+  width: 75vh;
+  float: right;
+  border-radius: 50%;
+}
+
+/* line 60, ../sass/services.scss */
+.modal-content {
+  border-radius: 0.8rem;
+}
+/* line 62, ../sass/services.scss */
+.modal-content .modal-header {
+  background-color: #ff7900;
+}
+/* line 64, ../sass/services.scss */
+.modal-content .modal-header .modal-title {
+  color: #fff;
+}
+/* line 67, ../sass/services.scss */
+.modal-content .modal-header .close {
+  color: #fff;
+}
+/* line 73, ../sass/services.scss */
+.modal-content .modal-body .left_side {
+  padding-top: 45px;
+}
+/* line 76, ../sass/services.scss */
+.modal-content .modal-body h3 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+/* line 82, ../sass/services.scss */
+.modal-content .modal-body ul {
+  font-size: 0.875rem;
+}
+/* line 84, ../sass/services.scss */
+.modal-content .modal-body ul li .li_head {
+  font-weight: bold;
+}
+/* line 90, ../sass/services.scss */
+.modal-content .btn-secondary {
+  background-color: #ff7900;
+  color: #fff;
+  border: none;
+}
+/* line 95, ../sass/services.scss */
+.modal-content .btn-secondary:hover {
+  -webkit-box-shadow: 3px 5px 20px -5px rgba(0, 0, 0, 0.58);
+  -moz-box-shadow: 3px 5px 20px -5px rgba(0, 0, 0, 0.58);
+  -o-box-shadow: 3px 5px 20px -5px rgba(0, 0, 0, 0.58);
+  box-shadow: 3px 5px 20px -5px rgba(0, 0, 0, 0.58);
+  font-weight: bold;
+  color: #fff;
+  background-color: #ff7900;
+}

@@ -1,32 +1,68 @@
-@import 'variables';
+@import '_variables';
+@import '_mixins';
 
+html {
+  scroll-behavior: smooth;
+}
 
 body {
-  font-family: $font-family-base;
+  font-family: $secondary-font;
+}
+
+.bg_gradient {
+  background-image: linear-gradient(#fff, $pastel_green, #fff, #fff);
+}
+
+h1, h3, h5 {
+  font-family: $primary-font;
 }
 
 h1 {
   text: {
     align: center;
-    transform: uppercase;
+    transform: capitalize;
   }
-  font-size: 2em;
+  @include font-size(55px);
+  font-weight: 600;
+
   position: relative;
-  color: $grey;
+  color: $orange;
   padding-top: 10px;
-  span {
-    font-weight: bold;
-    color: $orange;
-  }
+  line-height: 150px;
 }
 
-.more-link {
+h2 {
+  line-height: 20px;
+  margin: 2px 0px 20px 0px;
+  color: $drk;
+  text: {
+    align: left;
+  }
+  @include font-size(25px);
+  font-weight: bold;
+}
+
+h3 {
+  @include font-size(18px);
+  line-height: 14px;
+  margin-bottom: 20px;
+  color: $drk;
+}
+
+.more_link {
   display: block;
   margin: 12px 0;
   color: $grey;
-  text-decoration: none;
+  text: {
+    decoration: none;
+    transform: uppercase;
+  }
+  font: {
+    weight: bold;
+    @include font-size(15px);
+  }
 }
-.more-link:hover {
+.more_link:hover {
   color: $orange;
   text-decoration: none;
 }
@@ -34,10 +70,10 @@ h1 {
 .section_header:before, .section_header:after {
   content: "";
   position: absolute;
-  width: 30%;
-  height: 2px;
+  width: 20%;
+  height: 1px;
   background-color: $light-color;
-  box-shadow: 0px 1px 0px $bg-color;
+  box-shadow: 0px 1px 0px $white;
   top: 50%;
   z-index:0;
 }

@@ -1,0 +1,102 @@
+@import '_variables';
+@import '_mixins';
+
+// Navbar Style
+.navbar-light {
+  .nav-logo {
+    padding: 0;
+  }
+}
+///////////////////////
+
+// Services Section
+
+.services_container {
+  padding: {
+    top: 2em;
+    bottom: 1em;
+  }
+  margin-bottom: 1em;
+  .services_element {
+    padding: 35px 0px 50px 0px;
+    .services_details {
+      padding: 65px 15px 0px 16px;
+      h3 {
+        font-weight: 300;
+      }
+
+      p {
+        color: $grey;
+        margin: 0 0 1em;
+      }
+
+      a {
+        background-color: $orange;
+        color: $white;
+        border: none;
+        padding: 9px 19px 10px;
+      }
+
+      a:hover {
+        @include box-shadow;
+        font-weight: bold;
+      }
+    }
+
+    .services_image {
+       img {
+         width: 75vh;
+         float: right;
+         border-radius: 50%;
+       }
+    }
+  }
+}
+
+//////////////////////////////
+
+
+//Modal Styles
+.modal-content {
+  border-radius: 0.8rem;
+  .modal-header {
+    background-color: $orange;
+    .modal-title {
+      color: $white;
+    }
+    .close {
+      color: $white;
+    }
+  }
+
+  .modal-body {
+    .left_side {
+      padding-top: 45px;
+    }
+    h3 {
+      @include font-size(20px);
+      font-weight: bold;
+      padding-left: 20px;
+      padding-top: 10px;
+    }
+    ul {
+      @include font-size(14px);
+      li .li_head {
+        font-weight: bold;
+      }
+    }
+  }
+
+  .btn-secondary {
+    background-color: $orange;
+    color: $white;
+    border: none;
+  }
+  .btn-secondary:hover {
+    @include box-shadow;
+    font-weight: bold;
+    color: $white;
+    background-color: $orange;
+
+  }
+}
