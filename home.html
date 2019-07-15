@@ -6,9 +6,10 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Hind:300,400&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" type="text/css" href="stylesheets/despre.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/home.css">
     <link rel="stylesheet" type="text/css" href="stylesheets/navbar.css">
     <link rel="stylesheet" type="text/css" href="stylesheets/footer.css">
     <link rel="stylesheet" type="text/css" href="stylesheets/common.css">
@@ -19,13 +20,13 @@
       <div class="row colored_background">
         <div class="container nav-container">
           <div class="row top-bar">
-            <div class="col-md-6">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
               <ul class="contact-details">
                 <li><a href="#"><i class="fas fa-mobile-alt" style="font-size:12px;"></i>0756 200 189</a></li>
                 <li><a href="#"><i class="fas fa-envelope" style="font-size:12px;"></i>businessteammobile@gmail.com</a></li>
               </ul>
             </div>
-            <div class="col-md-6">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
               <ul class="social-list">
                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -35,23 +36,25 @@
             </div>
           </div>
           <div class="row">
-            <nav class="navbar navbar-expand-lg  navbar-light col-lg-12">
+            <nav class="navbar navbar-expand-lg navbar-light col-lg-12">
               <div class="nav-logo">
                 <img src="images/favicon.png" alt="Logo">
               </div>
-              <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span></button>
+              <div class="navbar-collapse collapse w-100 order-3 dual-collapse2" id="navbarNavDropdown">
                 <ul class="navbar-nav nav nav-justified ml-auto nav-list">
                   <li class="nav-item">
-                    <a class="nav-link active" href="despre.html"><i class="fas fa-home"></i></a>
+                    <a class="nav-link active" href="home.html"><i class="fas fa-home"></i><span class="sr-only">(current)</span></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="echipa.html">Echipă</a>
+                    <a class="nav-link" href="team.html">Echipă</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="servicii.html">Servicii</a>
+                    <a class="nav-link" href="services.html">Servicii</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="cariere.html">Cariere</a>
+                    <a class="nav-link" href="career.html">Cariere</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="contact.html">Contact</a>
@@ -77,7 +80,7 @@
               <img src="images/3.jpg" class="d-block w-100" alt="orange-cup">
               <div class="carousel-caption d-none d-md-block w-50 ml-auto mr-auto">
                 <div class="text_slide1">
-                  <h5>Business Team Mobile</h5>
+                  <h1>Business Team Mobile</h1>
                   <p>Suntem parteneri Orange Business</p>
                 </div>
               </div>
@@ -117,47 +120,45 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 section_header">
-            <h1>Ce <span>oferim</span> noi ?</h1>
+            <h1>Ce oferim noi ?</h1>
           </div>
-          <ul class="service_list row ">
-            <li class="col-lg-4 service_item">
+        </div>
+      </div>
+      <div class="row bg_gradient">
+        <div class="container">
+          <ul class="row services_list">
+            <li class="col-lg-4 col-md-4 col-sm-6 col-xs-12 service_item">
               <div class="round-box round-medium ">
                 <span class="box-inner">
                   <img class="img-circle" src="images/black_background.jpg" alt="orange1">
-                  <i class="far fa-handshake icon"></i>
+                  <i class="far fa-handshake service_icon"></i>
                 </span>
               </div>
-              <h3 class="text-center">Orange Business</h3>
-              <p>In calitate de parteneri Orange dorim sa oferim clientilor nostri o experienta de calitate prin care se vor intoarce intotdeauna cu placere la echipa Business Team Mobile</p>
-              <a class="more-link"href="servicii.html">
-                <strong>Read</strong> More
-              </a>
+              <h2 class="text-center">Orange Business</h2>
+              <p>În calitate de parteneri Orange dorim să oferim clienților noștri o experiență de calitate prin care se vor întoarce întotdeauna cu plăcere la echipa Business Team Mobile.</p>
+              <a class="more_link" href="contact.html">Mai multe detalii<i class="far fa-arrow-alt-circle-right"></i></a>
             </li>
-            <li class="col-lg-4 service_item">
+            <li class="col-lg-4 col-md-4 col-sm-6 col-xs-12 service_item">
               <div class="round-box round-medium">
                 <span class="box-inner">
                   <img class="img-circle" src="images/black_background.jpg" alt="orange2">
-                  <i class="fab fa-foursquare icon"></i>
+                  <i class="fab fa-foursquare service_icon"></i>
                 </span>
               </div>
-              <h3 class="text-center">Flexibilitate</h3>
-              <p>Fie ca reprezentati un start-up, o companie de familie sau o companie mare, va stam la dispozitie cu solutii de comunicatii flexibile pentru orice nevoie.</p>
-              <a class="more-link"href="servicii.html">
-                <strong>Read</strong> More
-              </a>
+              <h2 class="text-center">Flexibilitate</h2>
+              <p>Fie că reprezentați un start-up, o companie de familie sau o companie mare, va stăm la dispoziție cu soluții de comunicații flexibile pentru orice nevoie.</p>
+              <a class="more_link" href="services.html#flexibility_service">Mai multe detalii<i class="far fa-arrow-alt-circle-right"></i></a>
             </li>
-            <li class="col-lg-4 service_item">
+            <li class="col-lg-4 col-md-4 col-sm-6 col-xs-12 service_item">
               <div class="round-box round-medium">
                 <span class="box-inner">
                   <img class="img-circle" src="images/black_background.jpg" alt="orange3">
-                  <i class="fas fa-coffee icon"></i>
+                  <i class="fas fa-coffee service_icon"></i>
                 </span>
               </div>
-              <h3 class="text-center">Consultanta</h3>
-              <p>Tratam fiecare client cu pasiune si dedicare. De aceea pe langa solutiile telecom punem la dispozitia clientilor experienta noastra in domeniu.</p>
-              <a class="more-link"href="servicii.html">
-                <strong>Read</strong> More
-              </a>
+              <h2 class="text-center">Consultanță</h2>
+              <p>Tratăm fiecare client cu pasiune și dedicare. De aceea pe lângă soluțiile Orange punem la dispoziția clienților experiența noastră în domeniu.</p>
+              <a class="more_link" href="services.html#consulting_service">Mai multe detalii<i class="far fa-arrow-alt-circle-right"></i></a>
             </li>
           </ul>
         </div>
@@ -182,11 +183,11 @@
             <div class="footer_services">
               <h4 class="footer_title">Servicii<span class="head_line"></span></h4>
               <ul class="footer_list">
-                <li><a href="servicii.html"><span>Abonamente voce</span></a></li>
-                <li><a href="servicii.html"><span>Roaming</span></a></li>
-                <li><a href="servicii.html"><span>Internet mobil</span></a></li>
-                <li><a href="servicii.html"><span>Solutii pentru birou</span></a></li>
-                <li><a href="servicii.html"><span>Consultanta permanenta</span></a></li>
+                <li><a href="services.html"><span>Abonamente voce</span></a></li>
+                <li><a href="services.html"><span>Roaming</span></a></li>
+                <li><a href="services.html"><span>Internet mobil</span></a></li>
+                <li><a href="services.html"><span>Solutii pentru birou</span></a></li>
+                <li><a href="services.html"><span>Consultanta permanenta</span></a></li>
               </ul>
             </div>
           </div>
@@ -216,8 +217,8 @@
           </div>
           <div class="col-md-6">
             <ul class="secondary_nav">
-              <li><a href="echipa.html">Echipa BTM</a></li>
-              <li><a href="cariere.html">Hai in echipa!</a></li>
+              <li><a href="team.html">Echipa BTM</a></li>
+              <li><a href="career.html">Hai in echipa!</a></li>
               <li><a href="contact.html">Contact</a></li>
             </ul>
           </div>
@@ -228,6 +229,6 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
+    <script src="js/common.js"></script>
   </body>
 </html>

@@ -6,10 +6,11 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Hind:300,400&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" type="text/css" href="stylesheets/navbar.css">
-    <link rel="stylesheet" type="text/css" href="stylesheets/echipa.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/team.css">
     <link rel="stylesheet" type="text/css" href="stylesheets/footer.css">
     <link rel="stylesheet" type="text/css" href="stylesheets/common.css">
   </head>
@@ -19,13 +20,13 @@
       <div class="row colored_background">
         <div class="container nav-container">
           <div class="row top-bar">
-            <div class="col-md-6">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
               <ul class="contact-details">
                 <li><a href="#"><i class="fas fa-mobile-alt" style="font-size:12px;"></i>0756 200 189</a></li>
                 <li><a href="#"><i class="fas fa-envelope" style="font-size:12px;"></i>businessteammobile@gmail.com</a></li>
               </ul>
             </div>
-            <div class="col-md-6">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
               <ul class="social-list">
                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -39,19 +40,21 @@
               <div class="nav-logo">
                 <img src="images/favicon.png" alt="Logo">
               </div>
-              <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span></button>
+              <div class="navbar-collapse collapse w-100 order-3 dual-collapse2" id="navbarNavDropdown">
                 <ul class="navbar-nav nav nav-justified ml-auto nav-list">
                   <li class="nav-item">
-                    <a class="nav-link" href="despre.html"><i class="fas fa-home"></i></a>
+                    <a class="nav-link" href="home.html"><i class="fas fa-home"></i></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" href="echipa.html">Echipă</a>
+                    <a class="nav-link active" href="team.html">Echipă<span class="sr-only">(current)</span></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="servicii.html">Servicii</a>
+                    <a class="nav-link" href="services.html">Servicii</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="cariere.html">Cariere</a>
+                    <a class="nav-link" href="career.html">Cariere</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="contact.html">Contact</a>
@@ -67,11 +70,11 @@
     <section>
       <div class="container team">
         <div class="row title_container">
-          <div class="col-md-12 section_header">
-            <h1><span>Echipa</span> noastra</h1>
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 section_header">
+            <h1>Echipa noastră</h1>
           </div>
-          <div class="col-md-12">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <h3>Un grup de oameni pasionați și dornici de a face lucrurile „altfel”!</h3>
           </div>
         </div>
 
@@ -112,12 +115,12 @@
             </div>
           </div>
           <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 member_card">
-            <a href="cariere.html">
+            <a href="career.html">
               <img src="images/p6.png" onmouseover="this.src='images/q6.png'" onmouseout="this.src='images/p6.png'" alt="">
               <div class="body_card">
                 <h5 class="title_card">Hai in echipa noastra!</h5>
                 <p class="text_card">
-                  <a class="more-link" href="cariere.html">Afla mai multe detalii!</a>
+                  <a class="more_link" href="career.html">Afla mai multe detalii!</a>
                 </p>
               </div>
             </a>
@@ -145,19 +148,19 @@
               <div class="footer_services">
                 <h4 class="footer_title">Servicii<span class="head_line"></span></h4>
                 <ul class="footer_list">
-                  <li><a href="servicii.html"><span>Abonamente voce</span></a></li>
-                  <li><a href="servicii.html"><span>Roaming</span></a></li>
-                  <li><a href="servicii.html"><span>Internet mobil</span></a></li>
-                  <li><a href="servicii.html"><span>Solutii pentru birou</span></a></li>
-                  <li><a href="servicii.html"><span>Consultanta permanenta</span></a></li>
+                  <li><a href="services.html"><span>Abonamente voce</span></a></li>
+                  <li><a href="services.html"><span>Roaming</span></a></li>
+                  <li><a href="services.html"><span>Internet mobil</span></a></li>
+                  <li><a href="services.html"><span>Solutii pentru birou</span></a></li>
+                  <li><a href="services.html"><span>Consultanta permanenta</span></a></li>
                 </ul>
               </div>
             </div>
             <div class="col-sm-12 col-md-4">
               <div class="footer_social">
                 <div class="footer_lets_chat">
-                  <h4 class="footer_title">Hai sa povestim<span class="head_line"></span></h4>
-                  <p>Ne-ar placea sa povestim la o cafea. Tu completezi <a href="contact.html">formularul</a> si noi te contactam.</p>
+                  <h4 class="footer_title">Hai să povestim<span class="head_line"></span></h4>
+                    <p>Ne-ar plăcea să povestim la o cafea. Tu completezi <a href="contact.html">formularul</a> și noi te contactăm.</p>
                 </div>
                 <div class="footer_social_icons">
                   <h4 class="footer_title">Social<span class="head_line"></span></h4>
@@ -179,8 +182,8 @@
             </div>
             <div class="col-md-6">
               <ul class="secondary_nav">
-                <li><a href="echipa.html">Echipa BTM</a></li>
-                <li><a href="cariere.html">Hai in echipa!</a></li>
+                <li><a href="team.html">Echipa BTM</a></li>
+                <li><a href="career.html">Hai în echipă!</a></li>
                 <li><a href="contact.html">Contact</a></li>
               </ul>
             </div>
@@ -192,6 +195,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/common.js"></script>
 
   </body>
   </html>

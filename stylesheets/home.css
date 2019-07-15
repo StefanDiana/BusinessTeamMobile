@@ -1,0 +1,142 @@
+/* line 7, ../sass/home.scss */
+h3.text-center {
+  font-weight: bold;
+}
+
+/* line 18, ../sass/home.scss */
+.bd-example .carousel-inner .carousel-item {
+  height: 64vh;
+}
+/* line 20, ../sass/home.scss */
+.bd-example .carousel-inner .carousel-item .carousel-caption {
+  padding: 50px 100px;
+  bottom: 20%;
+}
+/* line 23, ../sass/home.scss */
+.bd-example .carousel-inner .carousel-item .carousel-caption .text_slide1 {
+  text-align: center;
+}
+/* line 25, ../sass/home.scss */
+.bd-example .carousel-inner .carousel-item .carousel-caption .text_slide1 h5 {
+  font-size: 2em;
+  color: #ff7900;
+  text-transform: uppercase;
+}
+/* line 30, ../sass/home.scss */
+.bd-example .carousel-inner .carousel-item .carousel-caption .text_slide1 p {
+  font-size: 1.5em;
+}
+/* line 35, ../sass/home.scss */
+.bd-example .carousel-inner .carousel-item .carousel-caption .text_slide2 h5 {
+  font-size: 2em;
+  color: #ff7900;
+  text-transform: uppercase;
+}
+/* line 36, ../sass/home.scss */
+.bd-example .carousel-inner .carousel-item .carousel-caption .text_slide2 h5 span {
+  font-size: 2.3em;
+}
+/* line 43, ../sass/home.scss */
+.bd-example .carousel-inner .carousel-item .carousel-caption .text_slide2 p {
+  font-size: 1.5em;
+}
+/* line 48, ../sass/home.scss */
+.bd-example .carousel-inner .carousel-item .carousel-caption .text_slide3 h5 {
+  font-size: 2em;
+  color: #ff7900;
+  text-transform: uppercase;
+}
+/* line 53, ../sass/home.scss */
+.bd-example .carousel-inner .carousel-item .carousel-caption .text_slide3 p {
+  font-size: 1.5em;
+}
+/* line 59, ../sass/home.scss */
+.bd-example .carousel-inner .drk::after {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #000;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+/* line 76, ../sass/home.scss */
+.section-padded {
+  padding: 5em 0;
+}
+/* line 78, ../sass/home.scss */
+.section-padded .section_header {
+  position: relative;
+}
+/* line 82, ../sass/home.scss */
+.section-padded .bg_gradient {
+  background-image: linear-gradient(#fff, #CEF8D3, #fff, #fff);
+}
+/* line 84, ../sass/home.scss */
+.section-padded .bg_gradient .services_list {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+/* line 88, ../sass/home.scss */
+.section-padded .bg_gradient .services_list .service_item {
+  padding-top: 1.5em;
+  margin: 50px auto 10px;
+}
+/* line 94, ../sass/home.scss */
+.section-padded .bg_gradient .services_list .service_item:hover .service_icon {
+  color: #ff7900;
+  -webkit-text-shadow: 5px 5px 2px black;
+  -moz-text-shadow: 5px 5px 2px black;
+  -o-text-shadow: 5px 5px 2px black;
+  text-shadow: 5px 5px 2px black;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.3);
+}
+/* line 101, ../sass/home.scss */
+.section-padded .bg_gradient .services_list .round-box {
+  margin-bottom: 50px;
+  position: relative;
+  z-index: 100;
+}
+/* line 106, ../sass/home.scss */
+.section-padded .bg_gradient .services_list .round-box .box-inner img {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+}
+/* line 112, ../sass/home.scss */
+.section-padded .bg_gradient .services_list .round-box .box-inner i {
+  font-size: 2.5rem;
+  -webkit-text-shadow: 5px 5px 2px black;
+  -moz-text-shadow: 5px 5px 2px black;
+  -o-text-shadow: 5px 5px 2px black;
+  text-shadow: 5px 5px 2px black;
+  color: #fff;
+  display: block;
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  top: 50%;
+  left: 50%;
+  margin-top: -0.5em;
+  margin-left: -0.5em;
+}
+/* line 130, ../sass/home.scss */
+.section-padded .bg_gradient .services_list p {
+  margin: 0 0 12px;
+  color: #6c6c6c;
+  font-size: 0.9375rem;
+}
+/* line 136, ../sass/home.scss */
+.section-padded .bg_gradient .services_list a i {
+  margin-left: 1em;
+}

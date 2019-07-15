@@ -1,5 +1,5 @@
-@import 'variables';
-
+@import '_variables';
+@import '_mixins';
 // Styles for footer_title and head_line
 .footer_title {
   color: $footer-color;
@@ -44,7 +44,7 @@
 .footer {
   background-color: $footer-bgcolor;
   padding-top: 60px;
-  color: $bg-color;
+  color: $white;
   .footer_contact_info {
     margin-bottom: 45px;
       i {
@@ -110,7 +110,7 @@
           font-size: 1.4em;
           width: 36px;
           height: 36px;
-          color: $bg-color;
+          color: $white;
           line-height: 36px;
           text-align: center;
           display: block;
@@ -119,19 +119,19 @@
         }
         .fa-facebook-f:hover{
           background-color: #3b5998;
-          color: $bg-color;
+          color: $white;
         }
         .fa-twitter:hover{
           background-color: #00acee;
-          color: $bg-color;
+          color: $white;
         }
         .fa-instagram:hover{
           background-image: -webkit-gradient( linear, left top, right bottom, color-stop(0, #405DE6), color-stop(1, #FD1D1D));
-          color: $bg-color;
+          color: $white;
         }
         .fa-linkedin-in:hover{
           background-color: #0077B5;
-          color: $bg-color;
+          color: $white;
         }
       }
     }

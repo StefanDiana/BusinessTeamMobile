@@ -1,40 +1,40 @@
-/* line 6, ../sass/navbar.scss */
+/* line 7, ../sass/navbar.scss */
 .navbar-light {
   padding: 0;
 }
-/* line 7, ../sass/navbar.scss */
+/* line 9, ../sass/navbar.scss */
 .navbar-light .nav-logo {
   margin: 0;
   padding: 27px 0;
 }
-/* line 8, ../sass/navbar.scss */
+/* line 10, ../sass/navbar.scss */
 .navbar-light .nav-logo img {
   max-width: 100%;
   height: auto;
 }
-/* line 16, ../sass/navbar.scss */
+/* line 18, ../sass/navbar.scss */
 .navbar-light .navbar-nav .nav-link {
   color: #6c6c6c;
 }
 
-/* line 26, ../sass/navbar.scss */
+/* line 27, ../sass/navbar.scss */
 .colored_background {
   background-color: #fff;
 }
-/* line 28, ../sass/navbar.scss */
+/* line 29, ../sass/navbar.scss */
 .colored_background .nav-container {
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
-/* line 29, ../sass/navbar.scss */
+/* line 39, ../sass/navbar.scss */
 .colored_background .nav-container .top-bar {
   border-bottom: 1px solid #6c6c6c;
   opacity: 0.6;
 }
-/* line 30, ../sass/navbar.scss */
+/* line 42, ../sass/navbar.scss */
 .colored_background .nav-container .top-bar .contact-details {
   list-style: none;
   display: inline-flex;
@@ -42,91 +42,108 @@
   margin: 0;
   opacity: 0.8;
 }
-/* line 31, ../sass/navbar.scss */
+/* line 48, ../sass/navbar.scss */
 .colored_background .nav-container .top-bar .contact-details li:first-child a:before {
   display: none;
 }
-/* line 34, ../sass/navbar.scss */
+/* line 52, ../sass/navbar.scss */
 .colored_background .nav-container .top-bar .contact-details a {
   color: #6c6c6c;
-  font-size: 12px;
+  font-size: 0.75rem;
   line-height: 32px;
 }
-/* line 35, ../sass/navbar.scss */
+/* line 56, ../sass/navbar.scss */
 .colored_background .nav-container .top-bar .contact-details a i {
   margin-right: 7px;
 }
-/* line 42, ../sass/navbar.scss */
+/* line 61, ../sass/navbar.scss */
 .colored_background .nav-container .top-bar .contact-details a:hover {
   color: #ff7900;
   text-decoration: none;
 }
-/* line 46, ../sass/navbar.scss */
+/* line 66, ../sass/navbar.scss */
 .colored_background .nav-container .top-bar .contact-details a:before {
   position: relative;
   content: "|";
   margin: 0 3px;
   color: #6c6c6c;
 }
-/* line 58, ../sass/navbar.scss */
+/* line 73, ../sass/navbar.scss */
 .colored_background .nav-container .top-bar .social-list {
   margin-bottom: 0px;
   float: right;
   list-style: none;
   display: inline-flex;
 }
-/* line 59, ../sass/navbar.scss */
+/* line 78, ../sass/navbar.scss */
 .colored_background .nav-container .top-bar .social-list li:last-child a i {
   border-right: 1px solid #6c6c6c;
 }
-/* line 62, ../sass/navbar.scss */
+/* line 82, ../sass/navbar.scss */
 .colored_background .nav-container .top-bar .social-list li a i {
   border-left: 1px solid #6c6c6c;
+  border-top: 1px solid #6c6c6c;
   text-align: center;
   line-height: 33px;
   height: 33px;
   width: 34px;
   color: #6c6c6c;
 }
-/* line 70, ../sass/navbar.scss */
+/* line 94, ../sass/navbar.scss */
 .colored_background .nav-container .top-bar .social-list .fa-facebook-f:hover {
   background-color: #3b5998;
   color: #fff;
 }
-/* line 74, ../sass/navbar.scss */
+/* line 99, ../sass/navbar.scss */
 .colored_background .nav-container .top-bar .social-list .fa-twitter:hover {
   background-color: #00acee;
   color: #fff;
 }
-/* line 78, ../sass/navbar.scss */
+/* line 104, ../sass/navbar.scss */
 .colored_background .nav-container .top-bar .social-list .fa-instagram:hover {
   background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #405DE6), color-stop(1, #FD1D1D));
   color: #fff;
 }
-/* line 82, ../sass/navbar.scss */
+/* line 109, ../sass/navbar.scss */
 .colored_background .nav-container .top-bar .social-list .fa-linkedin-in:hover {
   background-color: #0077B5;
   color: #fff;
 }
 
-/* line 103, ../sass/navbar.scss */
+/* line 119, ../sass/navbar.scss */
 .nav-list .nav-item {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 300;
   padding: 28px 15px;
 }
-/* line 104, ../sass/navbar.scss */
+/* line 124, ../sass/navbar.scss */
 .nav-list .nav-item .nav-link {
   color: #6c6c6c;
   font-weight: 900;
 }
-/* line 108, ../sass/navbar.scss */
+/* line 129, ../sass/navbar.scss */
 .nav-list .nav-item .nav-link.active {
   color: #ff7900;
   border-bottom: 2px solid #ff7900;
 }
-/* line 112, ../sass/navbar.scss */
+/* line 134, ../sass/navbar.scss */
 .nav-list .nav-item .nav-link:hover {
   color: #ff7900;
   border-bottom: 2px solid #ff7900;
+}
+/* line 139, ../sass/navbar.scss */
+.nav-list .nav-item .dropdown-menu {
+  background-color: #ff7900;
+}
+/* line 141, ../sass/navbar.scss */
+.nav-list .nav-item .dropdown-menu .dropdown-item {
+  background-color: #fff;
+  color: #000;
+  font-weight: lighter;
+  font-size: 0.75rem;
+}
+/* line 149, ../sass/navbar.scss */
+.nav-list .nav-item .dropdown-menu .dropdown-item:hover {
+  background-color: #ff7900;
+  font-weight: bold;
 }

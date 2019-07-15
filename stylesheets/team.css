@@ -1,4 +1,4 @@
-/* line 4, ../sass/echipa.scss */
+/* line 6, ../sass/team.scss */
 body {
   background: #fff;
   color: #000;
@@ -6,19 +6,18 @@ body {
   font-weight: 400;
 }
 
-/* line 13, ../sass/echipa.scss */
+/* line 15, ../sass/team.scss */
 .navbar-light .nav-logo {
   padding: 0;
 }
 
-/* line 22, ../sass/echipa.scss */
-.title_container p {
-  color: #6c6c6c;
+/* line 24, ../sass/team.scss */
+.title_container h3 {
   text-align: center;
   margin-top: 10px;
 }
 
-/* line 28, ../sass/echipa.scss */
+/* line 29, ../sass/team.scss */
 .background_container {
   background-color: #fff;
   background-size: cover;
@@ -26,51 +25,39 @@ body {
   height: 100%;
   width: 100%;
   text-align: center;
+  margin-bottom: 50px;
 }
-/* line 37, ../sass/echipa.scss */
+/* line 39, ../sass/team.scss */
 .background_container .member_card {
   margin: 25px auto;
 }
-/* line 39, ../sass/echipa.scss */
+/* line 41, ../sass/team.scss */
 .background_container .member_card img {
   width: 100%;
   height: auto;
   cursor: pointer;
   margin: 10px auto;
 }
-/* line 45, ../sass/echipa.scss */
+/* line 48, ../sass/team.scss */
 .background_container .member_card img:hover {
   transition: all 0.3s ease-in;
 }
-/* line 48, ../sass/echipa.scss */
+/* line 52, ../sass/team.scss */
 .background_container .member_card .body_card {
   font-weight: 500;
   text-align: center;
 }
-/* line 51, ../sass/echipa.scss */
+/* line 55, ../sass/team.scss */
 .background_container .member_card .body_card h5 {
   font-size: 24px;
   color: #000;
   font-weight: bold;
 }
-/* line 56, ../sass/echipa.scss */
+/* line 61, ../sass/team.scss */
 .background_container .member_card .body_card p {
   font-style: italic;
 }
-/* line 58, ../sass/echipa.scss */
-.background_container .member_card .body_card p .button_team {
-  background-color: #ff7900;
-  color: #000;
-  border: none;
-}
-/* line 63, ../sass/echipa.scss */
-.background_container .member_card .body_card p .button_team:hover {
-  background-color: #fff;
-  color: #ff7900;
-  border: 1px solid #000;
-  transition: all 0.3s ease-in;
-}
-/* line 72, ../sass/echipa.scss */
+/* line 67, ../sass/team.scss */
 .background_container a:hover {
   text-decoration: none;
 }

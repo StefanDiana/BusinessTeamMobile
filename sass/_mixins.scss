@@ -1,0 +1,56 @@
+@function calculateRem($size) {
+  $remSize: $size / 16px;
+  @return $remSize * 1rem;
+}
+@mixin font-size($size) {
+  // font-size: $size;
+  font-size: calculateRem($size);
+}
+
+@mixin keyframes($animation-name) {
+    @-webkit-keyframes #{$animation-name} {
+        @content;
+    }
+    @-moz-keyframes #{$animation-name} {
+        @content;
+    }
+    @-ms-keyframes #{$animation-name} {
+        @content;
+    }
+    @-o-keyframes #{$animation-name} {
+        @content;
+    }
+    @keyframes #{$animation-name} {
+        @content;
+    }
+}
+
+@mixin animation($str) {
+  -webkit-animation: #{$str};
+  -moz-animation: #{$str};
+  -ms-animation: #{$str};
+  -o-animation: #{$str};
+  animation: #{$str};
+}
+
+@mixin transition($args) {
+  -webkit-transition: $args;
+  -moz-transition: $args;
+  -ms-transition: $args;
+  -o-transition: $args;
+  transition: $args;
+}
+
+@mixin box-shadow {
+  -webkit-box-shadow: 3px 5px 20px -5px rgba(0,0,0,0.58);
+  -moz-box-shadow: 3px 5px 20px -5px rgba(0,0,0,0.58);
+  -o-box-shadow: 3px 5px 20px -5px rgba(0,0,0,0.58);
+  box-shadow: 3px 5px 20px -5px rgba(0,0,0,0.58);
+}
+
+@mixin text-shadow {
+  -webkit-text-shadow: 5px 5px 2px black;
+  -moz-text-shadow: 5px 5px 2px black;
+  -o-text-shadow: 5px 5px 2px black;
+  text-shadow: 5px 5px 2px black;
+}
