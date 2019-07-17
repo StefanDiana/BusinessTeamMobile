@@ -84,3 +84,17 @@ h3 {
 .section_header:after {
   right: 0;
 }
+
+.btn-primary {
+  background-color: $orange;
+  color: $white;
+  border: none;
+  padding: 9px 19px 10px;
+}
+
+.btn-primary:hover {
+  @include box-shadow;
+  font-weight: bold;
+  background-color: $orange;
+  color: $white;
+}

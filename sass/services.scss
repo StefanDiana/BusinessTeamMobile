@@ -31,15 +31,7 @@
       }
 
       a {
-        background-color: $orange;
         color: $white;
-        border: none;
-        padding: 9px 19px 10px;
-      }
-
-      a:hover {
-        @include box-shadow;
-        font-weight: bold;
       }
     }
 
