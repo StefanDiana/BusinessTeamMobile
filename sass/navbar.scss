@@ -16,7 +16,7 @@
   }
   .navbar-nav {
     .nav-link {
-      color: $grey;
+      color: $tertiary_color;
     }
   }
 }
@@ -25,7 +25,7 @@
 
 
 .colored_background {
-  background-color: $white;
+  background-color: $secondary_color;
   .nav-container {
     padding: {
       right: 15px;
@@ -37,7 +37,7 @@
     }
     @include font-size(14px);
     .top-bar {
-      border-bottom: 1px solid $grey;
+      border-bottom: 1px solid $tertiary_color;
       opacity: 0.6;
       .contact-details {
         list-style: none;
@@ -50,7 +50,7 @@
         }
 
         a {
-          color: $grey;
+          color: $tertiary_color;
           @include font-size(12px);
           line-height: 32px;
           i {
@@ -59,7 +59,7 @@
         }
 
         a:hover {
-          color: $orange;
+          color: $primary_color;
           text-decoration: none;
         }
 
@@ -67,7 +67,7 @@
           position: relative;
           content: "|";
           margin: 0 3px;
-          color: $grey;
+          color: $tertiary_color;
         }
       }
       .social-list {
@@ -76,39 +76,39 @@
         list-style: none;
         display: inline-flex;
         li:last-child a i {
-          border-right: 1px solid $grey;
+          border-right: 1px solid $tertiary_color;
         }
 
         li a i {
           border: {
-            left: 1px solid $grey;
-            top: 1px solid $grey;
+            left: 1px solid $tertiary_color;
+            top: 1px solid $tertiary_color;
           }
           text-align: center;
           line-height: 33px;
           height: 33px;
           width: 34px;
-          color: $grey;
+          color: $tertiary_color;
         }
 
         .fa-facebook-f:hover {
           background-color: #3b5998;
-          color: $white;
+          color: $secondary_color;
         }
 
         .fa-twitter:hover {
           background-color: #00acee;
-          color: $white;
+          color: $secondary_color;
         }
 
         .fa-instagram:hover {
           background-image: -webkit-gradient( linear, left top, right bottom, color-stop(0, #405DE6), color-stop(1, #FD1D1D));
-          color: $white;
+          color: $secondary_color;
         }
 
         .fa-linkedin-in:hover {
           background-color: #0077B5;
-          color: $white;
+          color: $secondary_color;
         }
       }
     }
@@ -122,24 +122,24 @@
 
     padding: 28px 15px;
     .nav-link {
-      color: $grey;
+      color: $tertiary_color;
       font-weight: 900;
     }
 
     .nav-link.active {
-      color: $orange;
-      border-bottom: 2px solid $orange;
+      color: $primary_color;
+      border-bottom: 2px solid $primary_color;
     }
 
     .nav-link:hover{
-      color: $orange;
-      border-bottom: 2px solid $orange;
+      color: $primary_color;
+      border-bottom: 2px solid $primary_color;
     }
 
     .dropdown-menu {
-      background-color: $orange;
+      background-color: $primary_color;
       .dropdown-item {
-        background-color: $white;
+        background-color: $secondary_color;
         color: $drk;
         font: {
           weight: lighter;
@@ -147,7 +147,7 @@
         @include font-size(12px);
       }
       .dropdown-item:hover {
-        background-color: $orange;
+        background-color: $primary_color;
         font-weight: bold;
       }
     }

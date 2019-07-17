@@ -26,12 +26,12 @@
       }
 
       p {
-        color: $grey;
+        color: $tertiary_color;
         margin: 0 0 1em;
       }
 
       a {
-        color: $white;
+        color: $secondary_color;
       }
     }
 
@@ -52,12 +52,12 @@
 .modal-content {
   border-radius: 0.8rem;
   .modal-header {
-    background-color: $orange;
+    background-color: $primary_color;
     .modal-title {
-      color: $white;
+      color: $secondary_color;
     }
     .close {
-      color: $white;
+      color: $secondary_color;
     }
   }
 
@@ -80,15 +80,15 @@
   }
 
   .btn-secondary {
-    background-color: $orange;
-    color: $white;
+    background-color: $primary_color;
+    color: $secondary_color;
     border: none;
   }
   .btn-secondary:hover {
     @include box-shadow;
     font-weight: bold;
-    color: $white;
-    background-color: $orange;
+    color: $secondary_color;
+    background-color: $primary_color;
 
   }
 }

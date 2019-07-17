@@ -10,7 +10,7 @@ body {
 }
 
 .bg_gradient {
-  background-image: linear-gradient(#fff, $pastel_green, #fff, #fff);
+  background-image: linear-gradient(#fff, $gradient_color, #fff, #fff);
 }
 
 h1, h3, h5 {
@@ -26,7 +26,7 @@ h1 {
   font-weight: 600;
 
   position: relative;
-  color: $orange;
+  color: $primary_color;
   padding-top: 10px;
   line-height: 150px;
 }
@@ -52,7 +52,7 @@ h3 {
 .more_link {
   display: block;
   margin: 12px 0;
-  color: $grey;
+  color: $tertiary_color;
   text: {
     decoration: none;
     transform: uppercase;
@@ -63,7 +63,7 @@ h3 {
   }
 }
 .more_link:hover {
-  color: $orange;
+  color: $primary_color;
   text-decoration: none;
 }
 
@@ -73,7 +73,7 @@ h3 {
   width: 20%;
   height: 1px;
   background-color: $light-color;
-  box-shadow: 0px 1px 0px $white;
+  box-shadow: 0px 1px 0px $secondary_color;
   top: 50%;
   z-index:0;
 }
@@ -86,8 +86,8 @@ h3 {
 }
 
 .btn-primary {
-  background-color: $orange;
-  color: $white;
+  background-color: $primary_color;
+  color: $secondary_color;
   border: none;
   padding: 9px 19px 10px;
 }
@@ -95,6 +95,6 @@ h3 {
 .btn-primary:hover {
   @include box-shadow;
   font-weight: bold;
-  background-color: $orange;
-  color: $white;
+  background-color: $primary_color;
+  color: $secondary_color;
 }

@@ -30,13 +30,13 @@
   }
 
   .card {
-    border: 1px solid $light-grey;
+    border: 1px solid $light_tertiary_color;
     @include font-size(14px);
     .card-header {
-      background-color: $white;
-      border-bottom: 1px solid $light-grey;
+      background-color: $secondary_color;
+      border-bottom: 1px solid $light_tertiary_color;
       .btn-link {
-        color: $orange;
+        color: $primary_color;
         font-weight: bold;
         text-decoration: none;
       }

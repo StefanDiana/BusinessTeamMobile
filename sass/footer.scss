@@ -17,7 +17,7 @@
     display: block;
     width: 50px;
     height: 3px;
-    background-color: $orange;
+    background-color: $primary_color;
     margin: 0;
     font-weight: 700;
   }
@@ -44,11 +44,11 @@
 .footer {
   background-color: $footer-bgcolor;
   padding-top: 60px;
-  color: $white;
+  color: $secondary_color;
   .footer_contact_info {
     margin-bottom: 45px;
       i {
-        color: $orange;
+        color: $primary_color;
         font-size: 1em;
       }
       span {
@@ -62,7 +62,7 @@
       text-decoration: none;
     }
     span:hover {
-      color: $orange;
+      color: $primary_color;
       transition: all 0.3s ease;
     }
   }
@@ -77,12 +77,12 @@
         a{
           color: $footer-color;
           padding-bottom: 1px;
-          border: 1px solid $grey;
+          border: 1px solid $tertiary_color;
         }
         a:hover {
           text-decoration: none;
-          background-color: $orange;
-          border: none;
+          background-color: $primary_color;
+          border: 1px solid $primary_color;
         }
       }
     }
@@ -110,7 +110,7 @@
           font-size: 1.4em;
           width: 36px;
           height: 36px;
-          color: $white;
+          color: $secondary_color;
           line-height: 36px;
           text-align: center;
           display: block;
@@ -119,19 +119,19 @@
         }
         .fa-facebook-f:hover{
           background-color: #3b5998;
-          color: $white;
+          color: $secondary_color;
         }
         .fa-twitter:hover{
           background-color: #00acee;
-          color: $white;
+          color: $secondary_color;
         }
         .fa-instagram:hover{
           background-image: -webkit-gradient( linear, left top, right bottom, color-stop(0, #405DE6), color-stop(1, #FD1D1D));
-          color: $white;
+          color: $secondary_color;
         }
         .fa-linkedin-in:hover{
           background-color: #0077B5;
-          color: $white;
+          color: $secondary_color;
         }
       }
     }
@@ -141,7 +141,7 @@
     margin-top: 20px;
     padding: 15px 0;
     letter-spacing: 0.5px;
-    border-top: 1px solid $grey;
+    border-top: 1px solid $tertiary_color;
     p {
     font-size: 13px;
     color: $footer-color;
@@ -155,7 +155,7 @@
       li {
         margin-left: 1em;
         padding: 0 10px;
-        border-left: 1px solid $grey;
+        border-left: 1px solid $tertiary_color;
         a {
           color: $footer-color;
         }
@@ -165,7 +165,8 @@
       }
       li a:hover {
         text-decoration: none;
-        color: $orange;
+        font-weight: bold;
+        color: $primary_color;
         transition: all 0.3s ease;
       }
     }
