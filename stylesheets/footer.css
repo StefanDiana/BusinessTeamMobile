@@ -86,7 +86,7 @@
 .footer .footer_social .footer_lets_chat p a:hover {
   text-decoration: none;
   background-color: #ff7900;
-  border: none;
+  border: 1px solid #ff7900;
 }
 /* line 90, ../sass/footer.scss */
 .footer .footer_social .footer_social_icons {
@@ -177,6 +177,7 @@
 /* line 166, ../sass/footer.scss */
 .footer .copyright_section .secondary_nav li a:hover {
   text-decoration: none;
+  font-weight: bold;
   color: #ff7900;
   transition: all 0.3s ease;
 }

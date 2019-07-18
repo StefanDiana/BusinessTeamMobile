@@ -1,0 +1,57 @@
+/* line 6, ../sass/career.scss */
+.career .career_container {
+  padding: 20px 0px 30px;
+}
+/* line 9, ../sass/career.scss */
+.career .career_container .career_body h2 {
+  line-height: 30px;
+}
+/* line 13, ../sass/career.scss */
+.career .career_container .career_hiring_image {
+  width: 400px;
+  height: 320px;
+  float: right;
+}
+
+/* line 21, ../sass/career.scss */
+.available_jobs {
+  padding-bottom: 50px;
+}
+/* line 23, ../sass/career.scss */
+.available_jobs .title_available_jobs {
+  padding: 50px 0px 37px;
+}
+/* line 25, ../sass/career.scss */
+.available_jobs .title_available_jobs h2 {
+  text-align: center;
+  font-size: 2.25rem;
+  margin: 0 auto;
+}
+/* line 32, ../sass/career.scss */
+.available_jobs .card {
+  border: 1px solid #d4d4d4;
+  font-size: 0.875rem;
+}
+/* line 35, ../sass/career.scss */
+.available_jobs .card .card-header {
+  background-color: #fff;
+  border-bottom: 1px solid #d4d4d4;
+}
+/* line 38, ../sass/career.scss */
+.available_jobs .card .card-header .btn-link {
+  color: #ff7900;
+  font-weight: bold;
+  text-decoration: none;
+}
+/* line 44, ../sass/career.scss */
+.available_jobs .card .card-header .btn-link:hover {
+  text-decoration: none;
+}
+/* line 49, ../sass/career.scss */
+.available_jobs .card .card-body {
+  padding: 2.25rem;
+}
+/* line 53, ../sass/career.scss */
+.available_jobs .card .card-body:hover {
+  text-decoration: none;
+}

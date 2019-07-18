@@ -4,7 +4,7 @@
 
 
 body {
-  background: $white;
+  background: $secondary_color;
   color: $drk;
   font-size: 14px;
   font-weight: 400;
@@ -28,7 +28,7 @@ body {
 
   .background_container {
     background:{
-      color: $white;
+      color: $secondary_color;
       size: cover;
       position: center;
     }

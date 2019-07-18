@@ -86,3 +86,22 @@ h3 {
 .section_header:after {
   right: 0;
 }
+
+/* line 88, ../sass/common.scss */
+.btn-primary {
+  background-color: #ff7900;
+  color: #fff;
+  border: none;
+  padding: 9px 19px 10px;
+}
+
+/* line 95, ../sass/common.scss */
+.btn-primary:hover {
+  -webkit-box-shadow: 3px 5px 20px -5px rgba(0, 0, 0, 0.58);
+  -moz-box-shadow: 3px 5px 20px -5px rgba(0, 0, 0, 0.58);
+  -o-box-shadow: 3px 5px 20px -5px rgba(0, 0, 0, 0.58);
+  box-shadow: 3px 5px 20px -5px rgba(0, 0, 0, 0.58);
+  font-weight: bold;
+  background-color: #ff7900;
+  color: #fff;
+}

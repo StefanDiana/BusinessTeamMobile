@@ -1,0 +1,57 @@
+@import '_variables';
+@import '_mixins';
+
+
+.career {
+  .career_container {
+    padding: 20px 0px 30px;
+    .career_body {
+      h2 {
+        line-height: 30px;
+      }
+    }
+    .career_hiring_image {
+      width: 400px;
+      height: 320px;
+      float: right;
+    }
+  }
+}
+
+.available_jobs {
+  padding-bottom: 50px;
+  .title_available_jobs {
+    padding: 50px 0px 37px;
+    h2 {
+      text-align: center;
+      @include font-size(36px);
+      margin: 0 auto;
+    }
+  }
+
+  .card {
+    border: 1px solid $light_tertiary_color;
+    @include font-size(14px);
+    .card-header {
+      background-color: $secondary_color;
+      border-bottom: 1px solid $light_tertiary_color;
+      .btn-link {
+        color: $primary_color;
+        font-weight: bold;
+        text-decoration: none;
+      }
+
+      .btn-link:hover {
+        text-decoration: none;
+      }
+    }
+
+    .card-body {
+      padding: 2.25rem;
+    }
+
+    .card-body:hover {
+      text-decoration: none;
+    }
+  }
+}
