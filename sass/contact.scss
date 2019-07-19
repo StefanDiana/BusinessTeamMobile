@@ -1,0 +1,83 @@
+@import '_variables';
+@import '_mixins';
+
+.contact{
+  padding-bottom: 40px;
+  .details_map {
+    .details {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      span {
+        color: $tertiary_color;
+        @include font-size(18px);
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: 0px;
+        padding-left: 11px;
+      }
+      i {
+        color: $primary_color;
+        font-size: 1em;
+      }
+    }
+
+
+    .social_icons {
+      list-style: none;
+      padding: 0;
+      margin-top: 15px;
+      li {
+        display: inline-block;
+        margin-right: 4px;
+        margin-left: 4px;
+      }
+
+      //  ================ reset bootstrap styles
+      a:hover {
+        text-decoration: none;
+      }
+      // ================ ======================
+
+      i {
+        font-size: 1.4em;
+        width: 36px;
+        height: 36px;
+        color: $tertiary_color;
+        line-height: 36px;
+        text-align: center;
+        display: block;
+        border-radius: 2px;
+        transition: all 0.2s ease-in-out;
+      }
+      i:hover {
+        color: $secondary_color;
+      }
+    }
+  }
+
+  .form {
+    color: $tertiary_color;
+    margin-top: 30px;
+    .form-group {
+      width: 100%;
+      margin: 0 auto;
+      overflow: hidden;
+      padding: 10px 0;
+      align-items: center;
+      justify-content: space-around;
+      display: flex;
+      float: none;
+    }
+
+    .btn-primary:active {
+      background-color: $primary_color;
+      border-color: $primary_color;
+    }
+
+    .btn:focus,.btn:active {
+       outline: none !important;
+       box-shadow: none !important;
+    }
+  }
+}

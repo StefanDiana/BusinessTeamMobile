@@ -2,21 +2,12 @@
 @import '_mixins';
 
 
-
 body {
   background: $secondary_color;
   color: $drk;
   font-size: 14px;
   font-weight: 400;
 }
-
-// Navbar Style
-.navbar-light {
-  .nav-logo{
-    padding: 0;
-  }
-}
-///////////////////////
 
 
 // Team Section

@@ -1,0 +1,82 @@
+/* line 4, ../sass/contact.scss */
+.contact {
+  padding-bottom: 40px;
+}
+/* line 7, ../sass/contact.scss */
+.contact .details_map .details {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+/* line 11, ../sass/contact.scss */
+.contact .details_map .details span {
+  color: #6c6c6c;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0px;
+  padding-left: 11px;
+}
+/* line 19, ../sass/contact.scss */
+.contact .details_map .details i {
+  color: #ff7900;
+  font-size: 1em;
+}
+/* line 26, ../sass/contact.scss */
+.contact .details_map .social_icons {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+}
+/* line 30, ../sass/contact.scss */
+.contact .details_map .social_icons li {
+  display: inline-block;
+  margin-right: 4px;
+  margin-left: 4px;
+}
+/* line 37, ../sass/contact.scss */
+.contact .details_map .social_icons a:hover {
+  text-decoration: none;
+}
+/* line 42, ../sass/contact.scss */
+.contact .details_map .social_icons i {
+  font-size: 1.4em;
+  width: 36px;
+  height: 36px;
+  color: #6c6c6c;
+  line-height: 36px;
+  text-align: center;
+  display: block;
+  border-radius: 2px;
+  transition: all 0.2s ease-in-out;
+}
+/* line 53, ../sass/contact.scss */
+.contact .details_map .social_icons i:hover {
+  color: #fff;
+}
+/* line 59, ../sass/contact.scss */
+.contact .form {
+  color: #6c6c6c;
+  margin-top: 30px;
+}
+/* line 62, ../sass/contact.scss */
+.contact .form .form-group {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 10px 0;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  float: none;
+}
+/* line 73, ../sass/contact.scss */
+.contact .form .btn-primary:active {
+  background-color: #ff7900;
+  border-color: #ff7900;
+}
+/* line 78, ../sass/contact.scss */
+.contact .form .btn:focus, .contact .form .btn:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
