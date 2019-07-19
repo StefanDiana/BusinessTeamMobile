@@ -31,7 +31,7 @@
 }
 /* line 39, ../sass/navbar.scss */
 .colored_background .nav-container .top-bar {
-  border-bottom: 1px solid #6c6c6c;
+  border-bottom: 1px solid #d4d4d4;
   opacity: 0.6;
 }
 /* line 42, ../sass/navbar.scss */
@@ -77,12 +77,12 @@
 }
 /* line 78, ../sass/navbar.scss */
 .colored_background .nav-container .top-bar .social-list li:last-child a i {
-  border-right: 1px solid #6c6c6c;
+  border-right: 1px solid #d4d4d4;
 }
 /* line 82, ../sass/navbar.scss */
 .colored_background .nav-container .top-bar .social-list li a i {
-  border-left: 1px solid #6c6c6c;
-  border-top: 1px solid #6c6c6c;
+  border-left: 1px solid #d4d4d4;
+  border-top: 1px solid #d4d4d4;
   text-align: center;
   line-height: 33px;
   height: 33px;

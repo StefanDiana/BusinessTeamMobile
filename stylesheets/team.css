@@ -1,4 +1,4 @@
-/* line 6, ../sass/team.scss */
+/* line 5, ../sass/team.scss */
 body {
   background: #fff;
   color: #000;
@@ -7,17 +7,12 @@ body {
 }
 
 /* line 15, ../sass/team.scss */
-.navbar-light .nav-logo {
-  padding: 0;
-}
-
-/* line 24, ../sass/team.scss */
 .title_container h3 {
   text-align: center;
   margin-top: 10px;
 }
 
-/* line 29, ../sass/team.scss */
+/* line 20, ../sass/team.scss */
 .background_container {
   background-color: #fff;
   background-size: cover;
@@ -27,37 +22,37 @@ body {
   text-align: center;
   margin-bottom: 50px;
 }
-/* line 39, ../sass/team.scss */
+/* line 30, ../sass/team.scss */
 .background_container .member_card {
   margin: 25px auto;
 }
-/* line 41, ../sass/team.scss */
+/* line 32, ../sass/team.scss */
 .background_container .member_card img {
   width: 100%;
   height: auto;
   cursor: pointer;
   margin: 10px auto;
 }
-/* line 48, ../sass/team.scss */
+/* line 39, ../sass/team.scss */
 .background_container .member_card img:hover {
   transition: all 0.3s ease-in;
 }
-/* line 52, ../sass/team.scss */
+/* line 43, ../sass/team.scss */
 .background_container .member_card .body_card {
   font-weight: 500;
   text-align: center;
 }
-/* line 55, ../sass/team.scss */
+/* line 46, ../sass/team.scss */
 .background_container .member_card .body_card h5 {
   font-size: 24px;
   color: #000;
   font-weight: bold;
 }
-/* line 61, ../sass/team.scss */
+/* line 52, ../sass/team.scss */
 .background_container .member_card .body_card p {
   font-style: italic;
 }
-/* line 67, ../sass/team.scss */
+/* line 58, ../sass/team.scss */
 .background_container a:hover {
   text-decoration: none;
 }

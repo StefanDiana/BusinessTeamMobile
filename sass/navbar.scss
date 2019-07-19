@@ -37,7 +37,7 @@
     }
     @include font-size(14px);
     .top-bar {
-      border-bottom: 1px solid $tertiary_color;
+      border-bottom: 1px solid $light_tertiary_color;
       opacity: 0.6;
       .contact-details {
         list-style: none;
@@ -76,13 +76,13 @@
         list-style: none;
         display: inline-flex;
         li:last-child a i {
-          border-right: 1px solid $tertiary_color;
+          border-right: 1px solid $light_tertiary_color;
         }
 
         li a i {
           border: {
-            left: 1px solid $tertiary_color;
-            top: 1px solid $tertiary_color;
+            left: 1px solid $light_tertiary_color;
+            top: 1px solid $light_tertiary_color;
           }
           text-align: center;
           line-height: 33px;

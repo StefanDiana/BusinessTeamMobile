@@ -120,61 +120,41 @@
   border-radius: 2px;
   transition: all 0.2s ease-in-out;
 }
-/* line 120, ../sass/footer.scss */
-.footer .footer_social .footer_social_icons .social-list .fa-facebook-f:hover {
-  background-color: #3b5998;
-  color: #fff;
-}
 /* line 124, ../sass/footer.scss */
-.footer .footer_social .footer_social_icons .social-list .fa-twitter:hover {
-  background-color: #00acee;
-  color: #fff;
-}
-/* line 128, ../sass/footer.scss */
-.footer .footer_social .footer_social_icons .social-list .fa-instagram:hover {
-  background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #405DE6), color-stop(1, #FD1D1D));
-  color: #fff;
-}
-/* line 132, ../sass/footer.scss */
-.footer .footer_social .footer_social_icons .social-list .fa-linkedin-in:hover {
-  background-color: #0077B5;
-  color: #fff;
-}
-/* line 140, ../sass/footer.scss */
 .footer .copyright_section {
   margin-top: 20px;
   padding: 15px 0;
   letter-spacing: 0.5px;
   border-top: 1px solid #6c6c6c;
 }
-/* line 145, ../sass/footer.scss */
+/* line 129, ../sass/footer.scss */
 .footer .copyright_section p {
   font-size: 13px;
   color: #eee;
   font-style: italic;
   margin-bottom: 0;
 }
-/* line 151, ../sass/footer.scss */
+/* line 135, ../sass/footer.scss */
 .footer .copyright_section .secondary_nav {
   list-style: none;
   float: right;
   display: flex;
 }
-/* line 155, ../sass/footer.scss */
+/* line 139, ../sass/footer.scss */
 .footer .copyright_section .secondary_nav li {
   margin-left: 1em;
   padding: 0 10px;
   border-left: 1px solid #6c6c6c;
 }
-/* line 159, ../sass/footer.scss */
+/* line 143, ../sass/footer.scss */
 .footer .copyright_section .secondary_nav li a {
   color: #eee;
 }
-/* line 163, ../sass/footer.scss */
+/* line 147, ../sass/footer.scss */
 .footer .copyright_section .secondary_nav li:first-child {
   border-left: none;
 }
-/* line 166, ../sass/footer.scss */
+/* line 150, ../sass/footer.scss */
 .footer .copyright_section .secondary_nav li a:hover {
   text-decoration: none;
   font-weight: bold;
