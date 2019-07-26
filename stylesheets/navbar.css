@@ -5,7 +5,6 @@
 /* line 9, ../sass/navbar.scss */
 .navbar-light .nav-logo {
   margin: 0;
-  padding: 27px 0;
 }
 /* line 10, ../sass/navbar.scss */
 .navbar-light .nav-logo img {
@@ -130,20 +129,4 @@
 .nav-list .nav-item .nav-link:hover {
   color: #ff7900;
   border-bottom: 2px solid #ff7900;
-}
-/* line 139, ../sass/navbar.scss */
-.nav-list .nav-item .dropdown-menu {
-  background-color: #ff7900;
-}
-/* line 141, ../sass/navbar.scss */
-.nav-list .nav-item .dropdown-menu .dropdown-item {
-  background-color: #fff;
-  color: #000;
-  font-weight: lighter;
-  font-size: 0.75rem;
-}
-/* line 149, ../sass/navbar.scss */
-.nav-list .nav-item .dropdown-menu .dropdown-item:hover {
-  background-color: #ff7900;
-  font-weight: bold;
 }

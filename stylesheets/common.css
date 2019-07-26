@@ -4,21 +4,27 @@ html {
 }
 
 /* line 8, ../sass/common.scss */
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* line 13, ../sass/common.scss */
 body {
   font-family: "Open Sans", sans-serif;
 }
 
-/* line 13, ../sass/common.scss */
+/* line 18, ../sass/common.scss */
 .bg_gradient {
   background-image: linear-gradient(#fff, #CEF8D3, #fff, #fff);
 }
 
-/* line 18, ../sass/common.scss */
+/* line 23, ../sass/common.scss */
 h1, h3, h5 {
   font-family: "Hind", sans-serif;
 }
 
-/* line 22, ../sass/common.scss */
+/* line 27, ../sass/common.scss */
 h1 {
   text-align: center;
   font-size: 3.4375rem;
@@ -29,7 +35,7 @@ h1 {
   line-height: 150px;
 }
 
-/* line 35, ../sass/common.scss */
+/* line 40, ../sass/common.scss */
 h2 {
   line-height: 20px;
   margin: 2px 0px 20px 0px;
@@ -39,7 +45,7 @@ h2 {
   font-weight: bold;
 }
 
-/* line 46, ../sass/common.scss */
+/* line 51, ../sass/common.scss */
 h3 {
   font-size: 1.125rem;
   line-height: 14px;
@@ -47,7 +53,7 @@ h3 {
   color: #000;
 }
 
-/* line 53, ../sass/common.scss */
+/* line 58, ../sass/common.scss */
 .more_link {
   display: block;
   margin: 12px 0;
@@ -58,13 +64,13 @@ h3 {
   font-font-size: 0.9375rem;
 }
 
-/* line 66, ../sass/common.scss */
+/* line 71, ../sass/common.scss */
 .more_link:hover {
   color: #ff7900;
   text-decoration: none;
 }
 
-/* line 73, ../sass/common.scss */
+/* line 78, ../sass/common.scss */
 .section_header:before, .section_header:after {
   content: "";
   position: absolute;
@@ -76,17 +82,17 @@ h3 {
   z-index: 0;
 }
 
-/* line 84, ../sass/common.scss */
+/* line 89, ../sass/common.scss */
 .section_header:before {
   left: 0;
 }
 
-/* line 87, ../sass/common.scss */
+/* line 92, ../sass/common.scss */
 .section_header:after {
   right: 0;
 }
 
-/* line 93, ../sass/common.scss */
+/* line 98, ../sass/common.scss */
 .btn-primary {
   background-color: #ff7900;
   color: #fff;
@@ -94,7 +100,7 @@ h3 {
   padding: 9px 19px 10px;
 }
 
-/* line 100, ../sass/common.scss */
+/* line 105, ../sass/common.scss */
 .btn-primary:hover {
   -webkit-box-shadow: 3px 5px 20px -5px rgba(0, 0, 0, 0.58);
   -moz-box-shadow: 3px 5px 20px -5px rgba(0, 0, 0, 0.58);
@@ -105,48 +111,48 @@ h3 {
   color: #fff;
 }
 
-/* line 107, ../sass/common.scss */
+/* line 112, ../sass/common.scss */
 .btn-primary:active {
   background-color: #ff7900 !important;
   border-color: #ff7900;
 }
 
-/* line 112, ../sass/common.scss */
+/* line 117, ../sass/common.scss */
 .btn:focus, .btn:active {
   outline: none !important;
   box-shadow: none !important;
 }
 
-/* line 120, ../sass/common.scss */
+/* line 125, ../sass/common.scss */
 .fa-facebook-f:hover {
   color: #fff;
   background-color: #3b5998;
 }
 
-/* line 124, ../sass/common.scss */
+/* line 129, ../sass/common.scss */
 .fa-twitter:hover {
   color: #fff;
   background-color: #00acee;
 }
 
-/* line 128, ../sass/common.scss */
+/* line 133, ../sass/common.scss */
 .fa-instagram:hover {
   color: #fff;
   background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #405DE6), color-stop(1, #FD1D1D));
 }
 
-/* line 132, ../sass/common.scss */
+/* line 137, ../sass/common.scss */
 .fa-linkedin-in:hover {
   color: #fff;
   background-color: #0077B5;
 }
 
-/* line 139, ../sass/common.scss */
+/* line 144, ../sass/common.scss */
 .padding_left_none {
   padding-left: 0px;
 }
 
-/* line 142, ../sass/common.scss */
+/* line 147, ../sass/common.scss */
 .padding_right_none {
   padding-right: 0px;
 }

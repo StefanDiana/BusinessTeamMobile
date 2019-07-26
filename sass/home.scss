@@ -16,42 +16,47 @@ h3.text-center {
 .bd-example {
   .carousel-inner {
     .carousel-item {
-      height: 64vh;
+      height: 75vh;
+      img {
+        background-size: cover;
+      }
       .carousel-caption {
-        padding: 50px 100px;
-        bottom: 20%;
         .text_slide1 {
           text-align: center;
+          padding-bottom: 150px;
           h5 {
-            font-size: 2em;
+            @include font-size(40px);
             color: $primary_color;
             text-transform: uppercase;
           }
-          p {
-            font-size: 1.5em;
-          }
         }
+
         .text_slide2 {
+          text-align: right;
+          padding-bottom: 130px;
+          span {
+            @include font-size(60px);
+          }
           h5 {
-            span {
-              font-size: 2.3em;
-            }
-            font-size: 2em;
+            @include font-size(40px);
             color: $primary_color;
             text-transform: uppercase;
           }
           p {
-            font-size: 1.5em;
+            @include font-size(30px)
           }
         }
+
         .text_slide3 {
+          text-align: left;
+          padding-bottom: 120px;
           h5 {
-            font-size: 2em;
+            @include font-size(40px);
             color: $primary_color;
             text-transform: uppercase;
           }
           p {
-            font-size: 1.5em;
+            @include font-size(30px);
           }
         }
       }
@@ -65,7 +70,7 @@ h3.text-center {
       right: 0;
       bottom: 0;
       background-color: $drk;
-      opacity: 0.5;
+      opacity: 0.6;
       cursor: pointer;
     }
   }

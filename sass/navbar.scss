@@ -12,7 +12,7 @@
       height: auto;
     }
     margin: 0;
-    padding: 27px 0;
+    // padding: 27px 0;
   }
   .navbar-nav {
     .nav-link {
@@ -134,22 +134,6 @@
     .nav-link:hover{
       color: $primary_color;
       border-bottom: 2px solid $primary_color;
-    }
-
-    .dropdown-menu {
-      background-color: $primary_color;
-      .dropdown-item {
-        background-color: $secondary_color;
-        color: $drk;
-        font: {
-          weight: lighter;
-        }
-        @include font-size(12px);
-      }
-      .dropdown-item:hover {
-        background-color: $primary_color;
-        font-weight: bold;
-      }
     }
   }
 }
