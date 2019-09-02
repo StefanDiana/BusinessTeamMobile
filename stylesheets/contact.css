@@ -70,12 +70,17 @@
   display: flex;
   float: none;
 }
-/* line 72, ../sass/contact.scss */
+/* line 71, ../sass/contact.scss */
+.contact .form input:focus, .contact .form textarea:focus {
+  border: 1px solid #ff7900;
+  box-shadow: 0 0 0 0.2rem #ff7900;
+}
+/* line 76, ../sass/contact.scss */
 .contact .form .btn-primary:active {
   background-color: #ff7900;
   border-color: #ff7900;
 }
-/* line 77, ../sass/contact.scss */
+/* line 81, ../sass/contact.scss */
 .contact .form .btn:focus, .contact .form .btn:active {
   outline: none !important;
   box-shadow: none !important;

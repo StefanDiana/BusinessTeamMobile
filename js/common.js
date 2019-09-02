@@ -1,7 +1,5 @@
 
 
-console.log("Diana");
-
 // function setCopyrightDate(){
 //   year=new Date().getYear();
 //   if (year<1900)

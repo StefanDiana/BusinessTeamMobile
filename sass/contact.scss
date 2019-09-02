@@ -68,6 +68,10 @@
       display: flex;
       float: none;
     }
+    input:focus, textarea:focus {
+      border: 1px solid $primary_color;
+      box-shadow: 0 0 0 0.2rem $primary_color;
+    }
 
     .btn-primary:active {
       background-color: $primary_color;
