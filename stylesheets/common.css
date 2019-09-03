@@ -156,3 +156,9 @@ h3 {
 .padding_right_none {
   padding-right: 0px;
 }
+
+/* line 153, ../sass/common.scss */
+.error {
+  border: solid 1px #E85A4F !important;
+  background-color: #FFE1C8;
+}

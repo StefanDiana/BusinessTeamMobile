@@ -148,3 +148,10 @@ h3 {
   padding-right: 0px;
 }
 //////////////////////////////
+
+// Error validations form
+.error {
+  border: solid 1px #E85A4F!important;
+  background-color: $error_form_bgcolor;
+}
+///////////////////////////////
