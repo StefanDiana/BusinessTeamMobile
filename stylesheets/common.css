@@ -162,3 +162,31 @@ h3 {
   border: solid 1px #E85A4F !important;
   background-color: #FFE1C8;
 }
+
+/* line 160, ../sass/common.scss */
+#btnScrollToTop {
+  font-size: 2.1875rem;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 50px;
+  height: 50px;
+  border-radius: 6px;
+  background: #ff7900;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  text-align: center;
+  display: none;
+}
+
+/* line 177, ../sass/common.scss */
+#btnScrollToTop:hover {
+  opacity: 0.9;
+}
+
+/* line 181, ../sass/common.scss */
+#btnScrollToTop:active {
+  background-color: #6c6c6c;
+}
