@@ -18,27 +18,34 @@
   padding-left: 11px;
 }
 /* line 19, ../sass/contact.scss */
+.contact .details_map .details a span:hover {
+  text-decoration: none;
+  font-weight: bold;
+  color: #ff7900;
+  transition: all 0.3s ease;
+}
+/* line 22, ../sass/contact.scss */
 .contact .details_map .details i {
   color: #ff7900;
   font-size: 1em;
 }
-/* line 25, ../sass/contact.scss */
+/* line 28, ../sass/contact.scss */
 .contact .details_map .social_icons {
   list-style: none;
   padding: 0;
   margin-top: 15px;
 }
-/* line 29, ../sass/contact.scss */
+/* line 32, ../sass/contact.scss */
 .contact .details_map .social_icons li {
   display: inline-block;
   margin-right: 4px;
   margin-left: 4px;
 }
-/* line 36, ../sass/contact.scss */
+/* line 39, ../sass/contact.scss */
 .contact .details_map .social_icons a:hover {
   text-decoration: none;
 }
-/* line 41, ../sass/contact.scss */
+/* line 44, ../sass/contact.scss */
 .contact .details_map .social_icons i {
   font-size: 1.4em;
   width: 36px;
@@ -50,16 +57,16 @@
   border-radius: 2px;
   transition: all 0.2s ease-in-out;
 }
-/* line 52, ../sass/contact.scss */
+/* line 55, ../sass/contact.scss */
 .contact .details_map .social_icons i:hover {
   color: #fff;
 }
-/* line 58, ../sass/contact.scss */
+/* line 61, ../sass/contact.scss */
 .contact .form {
   color: #6c6c6c;
   margin-top: 30px;
 }
-/* line 61, ../sass/contact.scss */
+/* line 64, ../sass/contact.scss */
 .contact .form .form-group {
   width: 100%;
   margin: 0 auto;
@@ -70,17 +77,17 @@
   display: flex;
   float: none;
 }
-/* line 71, ../sass/contact.scss */
+/* line 74, ../sass/contact.scss */
 .contact .form input:focus, .contact .form textarea:focus {
   border: 1px solid #ff7900;
   box-shadow: 0 0 0 0.2rem #ff7900;
 }
-/* line 76, ../sass/contact.scss */
+/* line 79, ../sass/contact.scss */
 .contact .form .btn-primary:active {
   background-color: #ff7900;
   border-color: #ff7900;
 }
-/* line 81, ../sass/contact.scss */
+/* line 84, ../sass/contact.scss */
 .contact .form .btn:focus, .contact .form .btn:active {
   outline: none !important;
   box-shadow: none !important;
