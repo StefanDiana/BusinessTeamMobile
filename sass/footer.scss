@@ -1,5 +1,13 @@
 @import '_variables';
 @import '_mixins';
+
+//  ================ reset bootstrap styles
+a:hover {
+  text-decoration: none;
+}
+// ================ ======================
+
+
 // Styles for footer_title and head_line
 .footer_title {
   color: $footer-color;
@@ -23,7 +31,6 @@
   }
 }
 
-  ///////////////////////////////////////////
 
   // Styles for ul
   .footer_list {
@@ -32,14 +39,17 @@
     list-style: none;
     span {
       color: $footer-color;
-      font-size: 0.9em;
+      @include font-size(15px);
       font-weight: 400;
       line-height: 27px;
       letter-spacing: 0px;
     }
+
+    a span:hover {
+      @include hover_link;
+    }
   }
 
-  ///////////////////////////////////////////
 
 .footer {
   background-color: $footer-bgcolor;
@@ -51,6 +61,7 @@
         color: $primary_color;
         font-size: 1em;
       }
+
       span {
           padding-left: 11px;
       }
@@ -61,9 +72,9 @@
     a {
       text-decoration: none;
     }
+
     span:hover {
-      color: $primary_color;
-      transition: all 0.3s ease;
+      @include hover_link;
     }
   }
 
@@ -79,8 +90,8 @@
           padding-bottom: 1px;
           border: 1px solid $tertiary_color;
         }
+
         a:hover {
-          text-decoration: none;
           background-color: $primary_color;
           border: 1px solid $primary_color;
         }
@@ -98,13 +109,6 @@
           margin-right: 4px;
           margin-left: 4px;
         }
-
-        //  ================ reset bootstrap styles
-        a:hover {
-          text-decoration: none;
-        }
-
-        // ================ ======================
 
         i {
           font-size: 1.4em;
@@ -127,11 +131,12 @@
     letter-spacing: 0.5px;
     border-top: 1px solid $tertiary_color;
     p {
-    font-size: 13px;
-    color: $footer-color;
-    font-style: italic;
-    margin-bottom: 0;
+      font-size: 13px;
+      color: $footer-color;
+      font-style: italic;
+      margin-bottom: 0;
     }
+
     .secondary_nav {
       list-style: none;
       float: right;
@@ -140,18 +145,18 @@
         margin-left: 1em;
         padding: 0 10px;
         border-left: 1px solid $tertiary_color;
+
         a {
           color: $footer-color;
         }
       }
+
       li:first-child {
         border-left: none;
       }
+
       li a:hover {
-        text-decoration: none;
-        font-weight: bold;
-        color: $primary_color;
-        transition: all 0.3s ease;
+        @include hover_link;
       }
     }
   }

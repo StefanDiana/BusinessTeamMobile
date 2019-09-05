@@ -3,7 +3,6 @@
   @return $remSize * 1rem;
 }
 @mixin font-size($size) {
-  // font-size: $size;
   font-size: calculateRem($size);
 }
 
@@ -53,4 +52,12 @@
   -moz-text-shadow: 5px 5px 2px black;
   -o-text-shadow: 5px 5px 2px black;
   text-shadow: 5px 5px 2px black;
+}
+
+//Styles for hover span with <a> tag
+@mixin hover_link {
+  text-decoration: none;
+  font-weight: bold;
+  color: $primary_color;
+  transition: all 0.3s ease;
 }

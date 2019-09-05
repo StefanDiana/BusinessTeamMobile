@@ -16,6 +16,9 @@
         letter-spacing: 0px;
         padding-left: 11px;
       }
+      a span:hover {
+        @include hover_link;
+      }
       i {
         color: $primary_color;
         font-size: 1em;

@@ -1,4 +1,9 @@
-/* line 4, ../sass/footer.scss */
+/* line 5, ../sass/footer.scss */
+a:hover {
+  text-decoration: none;
+}
+
+/* line 12, ../sass/footer.scss */
 .footer_title {
   color: #eee;
   text-transform: uppercase;
@@ -9,7 +14,7 @@
   position: relative;
   line-height: 20px;
 }
-/* line 13, ../sass/footer.scss */
+/* line 21, ../sass/footer.scss */
 .footer_title .head_line {
   position: absolute;
   bottom: 0;
@@ -22,93 +27,97 @@
   font-weight: 700;
 }
 
-/* line 29, ../sass/footer.scss */
+/* line 36, ../sass/footer.scss */
 .footer_list {
   padding: 0;
   margin: 0;
   list-style: none;
 }
-/* line 33, ../sass/footer.scss */
+/* line 40, ../sass/footer.scss */
 .footer_list span {
   color: #eee;
-  font-size: 0.9em;
+  font-size: 0.9375rem;
   font-weight: 400;
   line-height: 27px;
   letter-spacing: 0px;
 }
+/* line 48, ../sass/footer.scss */
+.footer_list a span:hover {
+  text-decoration: none;
+  font-weight: bold;
+  color: #ff7900;
+  transition: all 0.3s ease;
+}
 
-/* line 44, ../sass/footer.scss */
+/* line 54, ../sass/footer.scss */
 .footer {
   background-color: #222;
   padding-top: 60px;
   color: #fff;
 }
-/* line 48, ../sass/footer.scss */
+/* line 58, ../sass/footer.scss */
 .footer .footer_contact_info {
   margin-bottom: 45px;
 }
-/* line 50, ../sass/footer.scss */
+/* line 60, ../sass/footer.scss */
 .footer .footer_contact_info i {
   color: #ff7900;
   font-size: 1em;
 }
-/* line 54, ../sass/footer.scss */
+/* line 65, ../sass/footer.scss */
 .footer .footer_contact_info span {
   padding-left: 11px;
 }
-/* line 59, ../sass/footer.scss */
+/* line 70, ../sass/footer.scss */
 .footer .footer_services {
   margin-bottom: 45px;
 }
-/* line 61, ../sass/footer.scss */
+/* line 72, ../sass/footer.scss */
 .footer .footer_services a {
   text-decoration: none;
 }
-/* line 64, ../sass/footer.scss */
+/* line 76, ../sass/footer.scss */
 .footer .footer_services span:hover {
+  text-decoration: none;
+  font-weight: bold;
   color: #ff7900;
   transition: all 0.3s ease;
 }
-/* line 72, ../sass/footer.scss */
+/* line 83, ../sass/footer.scss */
 .footer .footer_social .footer_lets_chat p {
   margin: 0;
   font-size: 0.9em;
   font-weight: 400;
   line-height: 27px;
 }
-/* line 77, ../sass/footer.scss */
+/* line 88, ../sass/footer.scss */
 .footer .footer_social .footer_lets_chat p a {
   color: #eee;
   padding-bottom: 1px;
   border: 1px solid #6c6c6c;
 }
-/* line 82, ../sass/footer.scss */
+/* line 94, ../sass/footer.scss */
 .footer .footer_social .footer_lets_chat p a:hover {
-  text-decoration: none;
   background-color: #ff7900;
   border: 1px solid #ff7900;
 }
-/* line 90, ../sass/footer.scss */
+/* line 101, ../sass/footer.scss */
 .footer .footer_social .footer_social_icons {
   margin-top: 35px;
 }
-/* line 92, ../sass/footer.scss */
+/* line 103, ../sass/footer.scss */
 .footer .footer_social .footer_social_icons .social-list {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-/* line 96, ../sass/footer.scss */
+/* line 107, ../sass/footer.scss */
 .footer .footer_social .footer_social_icons .social-list li {
   display: inline-block;
   margin-right: 4px;
   margin-left: 4px;
 }
-/* line 103, ../sass/footer.scss */
-.footer .footer_social .footer_social_icons .social-list a:hover {
-  text-decoration: none;
-}
-/* line 109, ../sass/footer.scss */
+/* line 113, ../sass/footer.scss */
 .footer .footer_social .footer_social_icons .social-list i {
   font-size: 1.4em;
   width: 36px;
@@ -120,41 +129,41 @@
   border-radius: 2px;
   transition: all 0.2s ease-in-out;
 }
-/* line 124, ../sass/footer.scss */
+/* line 128, ../sass/footer.scss */
 .footer .copyright_section {
   margin-top: 20px;
   padding: 15px 0;
   letter-spacing: 0.5px;
   border-top: 1px solid #6c6c6c;
 }
-/* line 129, ../sass/footer.scss */
+/* line 133, ../sass/footer.scss */
 .footer .copyright_section p {
   font-size: 13px;
   color: #eee;
   font-style: italic;
   margin-bottom: 0;
 }
-/* line 135, ../sass/footer.scss */
+/* line 140, ../sass/footer.scss */
 .footer .copyright_section .secondary_nav {
   list-style: none;
   float: right;
   display: flex;
 }
-/* line 139, ../sass/footer.scss */
+/* line 144, ../sass/footer.scss */
 .footer .copyright_section .secondary_nav li {
   margin-left: 1em;
   padding: 0 10px;
   border-left: 1px solid #6c6c6c;
 }
-/* line 143, ../sass/footer.scss */
+/* line 149, ../sass/footer.scss */
 .footer .copyright_section .secondary_nav li a {
   color: #eee;
 }
-/* line 147, ../sass/footer.scss */
+/* line 154, ../sass/footer.scss */
 .footer .copyright_section .secondary_nav li:first-child {
   border-left: none;
 }
-/* line 150, ../sass/footer.scss */
+/* line 158, ../sass/footer.scss */
 .footer .copyright_section .secondary_nav li a:hover {
   text-decoration: none;
   font-weight: bold;
