@@ -92,3 +92,18 @@
   outline: none !important;
   box-shadow: none !important;
 }
+
+@media screen and (max-width: 425px) {
+  /* line 96, ../sass/contact.scss */
+  .contact .details_map .details span {
+    font-size: 1.0625rem;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0px;
+    padding-left: 11px;
+  }
+  /* line 104, ../sass/contact.scss */
+  .contact .details_map .social_icons {
+    padding-bottom: 20px;
+  }
+}

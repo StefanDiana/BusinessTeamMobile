@@ -55,3 +55,23 @@
     }
   }
 }
+
+@media screen and (max-width: 425px) {
+  .career {
+    .career_container {
+      .career_body {
+        text-align: center;
+        h2 {
+          line-height: 30px;
+          text-align: center;
+        }
+      }
+      .career_hiring_image {
+        width: 330px;
+        height: 260px;
+        float: none;
+        margin-top: 50px;
+      }
+    }
+  }
+}

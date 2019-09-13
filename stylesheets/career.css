@@ -55,3 +55,22 @@
 .available_jobs .card .card-body:hover {
   text-decoration: none;
 }
+
+@media screen and (max-width: 425px) {
+  /* line 62, ../sass/career.scss */
+  .career .career_container .career_body {
+    text-align: center;
+  }
+  /* line 64, ../sass/career.scss */
+  .career .career_container .career_body h2 {
+    line-height: 30px;
+    text-align: center;
+  }
+  /* line 69, ../sass/career.scss */
+  .career .career_container .career_hiring_image {
+    width: 330px;
+    height: 260px;
+    float: none;
+    margin-top: 50px;
+  }
+}

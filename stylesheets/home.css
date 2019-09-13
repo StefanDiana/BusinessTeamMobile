@@ -71,26 +71,22 @@ h3.text-center {
 .section-padded {
   padding: 5em 0;
 }
-/* line 83, ../sass/home.scss */
-.section-padded .section_header {
-  position: relative;
-}
-/* line 87, ../sass/home.scss */
+/* line 84, ../sass/home.scss */
 .section-padded .bg_gradient {
   background-image: linear-gradient(#fff, #CEF8D3, #fff, #fff);
 }
-/* line 89, ../sass/home.scss */
+/* line 86, ../sass/home.scss */
 .section-padded .bg_gradient .services_list {
   list-style: none;
   text-align: center;
   padding: 0;
 }
-/* line 93, ../sass/home.scss */
+/* line 90, ../sass/home.scss */
 .section-padded .bg_gradient .services_list .service_item {
   padding-top: 1.5em;
   margin: 50px auto 10px;
 }
-/* line 98, ../sass/home.scss */
+/* line 95, ../sass/home.scss */
 .section-padded .bg_gradient .services_list .service_item:hover .service_icon {
   color: #ff7900;
   -webkit-text-shadow: 5px 5px 2px black;
@@ -104,19 +100,19 @@ h3.text-center {
   transition: all 0.2s ease-in-out;
   transform: scale(1.3);
 }
-/* line 105, ../sass/home.scss */
+/* line 102, ../sass/home.scss */
 .section-padded .bg_gradient .services_list .round-box {
   margin-bottom: 50px;
   position: relative;
   z-index: 100;
 }
-/* line 110, ../sass/home.scss */
+/* line 107, ../sass/home.scss */
 .section-padded .bg_gradient .services_list .round-box .box-inner img {
   border-radius: 50%;
   width: 120px;
   height: 120px;
 }
-/* line 116, ../sass/home.scss */
+/* line 113, ../sass/home.scss */
 .section-padded .bg_gradient .services_list .round-box .box-inner i {
   font-size: 2.5rem;
   -webkit-text-shadow: 5px 5px 2px black;
@@ -133,56 +129,56 @@ h3.text-center {
   margin-top: -0.5em;
   margin-left: -0.5em;
 }
-/* line 134, ../sass/home.scss */
+/* line 131, ../sass/home.scss */
 .section-padded .bg_gradient .services_list p {
   margin: 0 0 12px;
   color: #6c6c6c;
   font-size: 0.9375rem;
 }
-/* line 140, ../sass/home.scss */
+/* line 137, ../sass/home.scss */
 .section-padded .bg_gradient .services_list a i {
   margin-left: 1em;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 152, ../sass/home.scss */
+  /* line 149, ../sass/home.scss */
   .bd-example .carousel-inner .carousel-item .carousel-caption .text_slide1, .bd-example .carousel-inner .carousel-item .carousel-caption .text_slide2, .bd-example .carousel-inner .carousel-item .carousel-caption .text_slide3 {
     padding-bottom: 30px;
   }
-  /* line 154, ../sass/home.scss */
+  /* line 151, ../sass/home.scss */
   .bd-example .carousel-inner .carousel-item .carousel-caption .text_slide1 h5, .bd-example .carousel-inner .carousel-item .carousel-caption .text_slide2 h5, .bd-example .carousel-inner .carousel-item .carousel-caption .text_slide3 h5 {
     font-size: 1.5625rem;
   }
-  /* line 159, ../sass/home.scss */
+  /* line 156, ../sass/home.scss */
   .bd-example .carousel-inner .carousel-item .carousel-caption .text_slide2 span, .bd-example .carousel-inner .carousel-item .carousel-caption .text_slide3 span {
     font-size: 1.875rem;
   }
-  /* line 162, ../sass/home.scss */
+  /* line 159, ../sass/home.scss */
   .bd-example .carousel-inner .carousel-item .carousel-caption .text_slide2 p, .bd-example .carousel-inner .carousel-item .carousel-caption .text_slide3 p {
     font-size: 0.9375rem;
     margin-bottom: 0px;
   }
 }
 @media screen and (max-width: 425px) {
-  /* line 178, ../sass/home.scss */
+  /* line 175, ../sass/home.scss */
   .bd-example .carousel-inner .carousel-item .carousel-caption .text_slide1, .bd-example .carousel-inner .carousel-item .carousel-caption .text_slide2, .bd-example .carousel-inner .carousel-item .carousel-caption .text_slide3 {
     padding-bottom: 12px;
   }
-  /* line 180, ../sass/home.scss */
+  /* line 177, ../sass/home.scss */
   .bd-example .carousel-inner .carousel-item .carousel-caption .text_slide1 h5, .bd-example .carousel-inner .carousel-item .carousel-caption .text_slide2 h5, .bd-example .carousel-inner .carousel-item .carousel-caption .text_slide3 h5 {
     font-size: 0.9375rem;
   }
-  /* line 185, ../sass/home.scss */
+  /* line 182, ../sass/home.scss */
   .bd-example .carousel-inner .carousel-item .carousel-caption .text_slide2 span, .bd-example .carousel-inner .carousel-item .carousel-caption .text_slide3 span {
     font-size: 1.25rem;
   }
-  /* line 188, ../sass/home.scss */
+  /* line 185, ../sass/home.scss */
   .bd-example .carousel-inner .carousel-item .carousel-caption .text_slide2 p, .bd-example .carousel-inner .carousel-item .carousel-caption .text_slide3 p {
     font-size: 0.625rem;
     margin-bottom: 0px;
   }
 
-  /* line 198, ../sass/home.scss */
+  /* line 195, ../sass/home.scss */
   .section-padded {
     padding: 0px;
   }

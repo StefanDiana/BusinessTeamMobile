@@ -32,54 +32,43 @@
   border-radius: 50%;
 }
 
-/* line 45, ../sass/services.scss */
-.modal-content {
-  border-radius: 0.8rem;
-}
-/* line 47, ../sass/services.scss */
-.modal-content .modal-header {
-  background-color: #ff7900;
-}
-/* line 49, ../sass/services.scss */
-.modal-content .modal-header .modal-title {
-  color: #fff;
-}
-/* line 52, ../sass/services.scss */
-.modal-content .modal-header .close {
-  color: #fff;
-}
-/* line 58, ../sass/services.scss */
-.modal-content .modal-body .left_side {
-  padding-top: 45px;
-}
-/* line 61, ../sass/services.scss */
-.modal-content .modal-body h3 {
-  font-size: 1.25rem;
-  font-weight: bold;
-  padding-left: 20px;
-  padding-top: 10px;
-}
-/* line 67, ../sass/services.scss */
-.modal-content .modal-body ul {
-  font-size: 0.875rem;
-}
-/* line 69, ../sass/services.scss */
-.modal-content .modal-body ul li .li_head {
-  font-weight: bold;
-}
-/* line 75, ../sass/services.scss */
-.modal-content .btn-secondary {
-  background-color: #ff7900;
-  color: #fff;
-  border: none;
-}
-/* line 80, ../sass/services.scss */
-.modal-content .btn-secondary:hover {
-  -webkit-box-shadow: 3px 5px 20px -5px rgba(0, 0, 0, 0.58);
-  -moz-box-shadow: 3px 5px 20px -5px rgba(0, 0, 0, 0.58);
-  -o-box-shadow: 3px 5px 20px -5px rgba(0, 0, 0, 0.58);
-  box-shadow: 3px 5px 20px -5px rgba(0, 0, 0, 0.58);
-  font-weight: bold;
-  color: #fff;
-  background-color: #ff7900;
+@media screen and (max-width: 425px) {
+  /* line 43, ../sass/services.scss */
+  h2 {
+    text-align: center;
+    line-height: 30px;
+  }
+
+  /* line 48, ../sass/services.scss */
+  .services_container {
+    padding-top: 1em;
+    padding-bottom: 0em;
+    margin-bottom: 0em;
+    text-align: center;
+  }
+  /* line 55, ../sass/services.scss */
+  .services_container .services_element {
+    padding: 0px;
+  }
+  /* line 57, ../sass/services.scss */
+  .services_container .services_element .services_details {
+    padding: 15px 15px 40px 16px;
+  }
+  /* line 62, ../sass/services.scss */
+  .services_container .services_element .services_image img {
+    width: 75vh;
+    float: none;
+  }
+
+  /* line 72, ../sass/services.scss */
+  .modal-content .modal-body .left_side {
+    padding-top: 0px;
+  }
+  /* line 75, ../sass/services.scss */
+  .modal-content .modal-body h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding-left: 0px;
+    padding-top: 0px;
+  }
 }

@@ -75,28 +75,6 @@ h3 {
   text-decoration: none;
 }
 
-
-// Section header line
-.section_header:before, .section_header:after {
-  content: "";
-  position: absolute;
-  width: 20%;
-  height: 1px;
-  background-color: $light-color;
-  box-shadow: 0px 1px 0px $secondary_color;
-  top: 50%;
-  z-index:0;
-}
-
-.section_header:before{
-  left: 0;
-}
-
-.section_header:after {
-  right: 0;
-}
-
-
 // Button
 .btn-primary {
   background-color: $primary_color;
@@ -190,8 +168,14 @@ h3 {
 @media screen and (max-width: 425px) {
   h1 {
     @include font-size(40px);
-    line-height: 80px;
-    padding-top: 15px;
+    line-height: 70px;
+    padding-top: 20px;
+  }
+
+  h3 {
+    @include font-size(18px);
+    line-height: 25px;
+    margin-bottom: 20px;
   }
 
   #btnScrollToTop {
@@ -201,11 +185,6 @@ h3 {
     bottom: 10px;
     right: 10px;
   }
-
-  .section-padded {
-    .section_header:before, .section_header:after {
-      width: 0%;
-    }
 
     .bg_gradient {
       .services_list {
@@ -222,5 +201,5 @@ h3 {
         }
       }
     }
-  }
+
 }
