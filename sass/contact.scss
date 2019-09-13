@@ -87,3 +87,23 @@
     }
   }
 }
+
+
+@media screen and (max-width: 425px) {
+  .contact {
+    .details_map {
+      .details {
+        span {
+          @include font-size(17px);
+          font-weight: 400;
+          line-height: 25px;
+          letter-spacing: 0px;
+          padding-left: 11px;
+        }
+      }
+      .social_icons {
+        padding-bottom: 20px;
+      }
+    }
+  }
+}

@@ -70,29 +70,7 @@ h3 {
   text-decoration: none;
 }
 
-/* line 80, ../sass/common.scss */
-.section_header:before, .section_header:after {
-  content: "";
-  position: absolute;
-  width: 20%;
-  height: 1px;
-  background-color: #f2f2f4;
-  box-shadow: 0px 1px 0px #fff;
-  top: 50%;
-  z-index: 0;
-}
-
-/* line 91, ../sass/common.scss */
-.section_header:before {
-  left: 0;
-}
-
-/* line 95, ../sass/common.scss */
-.section_header:after {
-  right: 0;
-}
-
-/* line 101, ../sass/common.scss */
+/* line 79, ../sass/common.scss */
 .btn-primary {
   background-color: #ff7900;
   color: #fff;
@@ -100,7 +78,7 @@ h3 {
   padding: 9px 19px 10px;
 }
 
-/* line 108, ../sass/common.scss */
+/* line 86, ../sass/common.scss */
 .btn-primary:hover {
   -webkit-box-shadow: 3px 5px 20px -5px rgba(0, 0, 0, 0.58);
   -moz-box-shadow: 3px 5px 20px -5px rgba(0, 0, 0, 0.58);
@@ -111,55 +89,55 @@ h3 {
   color: #fff;
 }
 
-/* line 115, ../sass/common.scss */
+/* line 93, ../sass/common.scss */
 .btn-primary:active {
   background-color: #ff7900 !important;
   border-color: #ff7900;
 }
 
-/* line 120, ../sass/common.scss */
+/* line 98, ../sass/common.scss */
 .btn:focus, .btn:active {
   outline: none !important;
   box-shadow: none !important;
 }
 
-/* line 127, ../sass/common.scss */
+/* line 105, ../sass/common.scss */
 .fa-facebook-f:hover {
   color: #fff;
   background-color: #3b5998;
 }
 
-/* line 132, ../sass/common.scss */
+/* line 110, ../sass/common.scss */
 .fa-twitter:hover {
   color: #fff;
   background-color: #00acee;
 }
 
-/* line 137, ../sass/common.scss */
+/* line 115, ../sass/common.scss */
 .fa-instagram:hover {
   color: #fff;
   background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #405DE6), color-stop(1, #FD1D1D));
 }
 
-/* line 142, ../sass/common.scss */
+/* line 120, ../sass/common.scss */
 .fa-linkedin-in:hover {
   color: #fff;
   background-color: #0077B5;
 }
 
-/* line 149, ../sass/common.scss */
+/* line 127, ../sass/common.scss */
 .padding_none {
   padding-left: 0px;
   padding-right: 0px;
 }
 
-/* line 156, ../sass/common.scss */
+/* line 134, ../sass/common.scss */
 .error {
   border: solid 1px #E85A4F !important;
   background-color: #FFE1C8;
 }
 
-/* line 163, ../sass/common.scss */
+/* line 141, ../sass/common.scss */
 #btnScrollToTop {
   font-size: 2.1875rem;
   position: fixed;
@@ -178,25 +156,32 @@ h3 {
   z-index: 1000;
 }
 
-/* line 181, ../sass/common.scss */
+/* line 159, ../sass/common.scss */
 #btnScrollToTop:hover {
   opacity: 0.9;
 }
 
-/* line 185, ../sass/common.scss */
+/* line 163, ../sass/common.scss */
 #btnScrollToTop:active {
   background-color: #6c6c6c;
 }
 
 @media screen and (max-width: 425px) {
-  /* line 191, ../sass/common.scss */
+  /* line 169, ../sass/common.scss */
   h1 {
     font-size: 2.5rem;
-    line-height: 80px;
-    padding-top: 15px;
+    line-height: 70px;
+    padding-top: 20px;
   }
 
-  /* line 197, ../sass/common.scss */
+  /* line 175, ../sass/common.scss */
+  h3 {
+    font-size: 1.125rem;
+    line-height: 25px;
+    margin-bottom: 20px;
+  }
+
+  /* line 181, ../sass/common.scss */
   #btnScrollToTop {
     height: 30px;
     width: 30px;
@@ -205,20 +190,16 @@ h3 {
     right: 10px;
   }
 
-  /* line 206, ../sass/common.scss */
-  .section-padded .section_header:before, .section-padded .section_header:after {
-    width: 0%;
-  }
-  /* line 212, ../sass/common.scss */
-  .section-padded .bg_gradient .services_list .service_item {
+  /* line 191, ../sass/common.scss */
+  .bg_gradient .services_list .service_item {
     margin-top: 10px;
   }
-  /* line 216, ../sass/common.scss */
-  .section-padded .bg_gradient .services_list .round-box {
+  /* line 195, ../sass/common.scss */
+  .bg_gradient .services_list .round-box {
     margin-bottom: 30px;
   }
-  /* line 218, ../sass/common.scss */
-  .section-padded .bg_gradient .services_list .round-box .box-inner img {
+  /* line 197, ../sass/common.scss */
+  .bg_gradient .services_list .round-box .box-inner img {
     width: 90px;
     height: 90px;
   }

@@ -39,49 +39,45 @@
 }
 
 //////////////////////////////
-
-
-//Modal Styles
-.modal-content {
-  border-radius: 0.8rem;
-  .modal-header {
-    background-color: $primary_color;
-    .modal-title {
-      color: $secondary_color;
-    }
-    .close {
-      color: $secondary_color;
-    }
+@media screen and (max-width: 425px) {
+  h2 {
+    text-align: center;
+    line-height: 30px;
   }
 
-  .modal-body {
-    .left_side {
-      padding-top: 45px;
+  .services_container {
+    padding: {
+      top: 1em;
+      bottom: 0em;
     }
-    h3 {
-      @include font-size(20px);
-      font-weight: bold;
-      padding-left: 20px;
-      padding-top: 10px;
-    }
-    ul {
-      @include font-size(14px);
-      li .li_head {
-        font-weight: bold;
+    margin-bottom: 0em;
+    text-align: center;
+    .services_element {
+      padding: 0px;
+      .services_details {
+        padding: 15px 15px 40px 16px;
+      }
+
+      .services_image {
+         img {
+           width: 75vh;
+           float: none;
+         }
       }
     }
   }
 
-  .btn-secondary {
-    background-color: $primary_color;
-    color: $secondary_color;
-    border: none;
-  }
-  .btn-secondary:hover {
-    @include box-shadow;
-    font-weight: bold;
-    color: $secondary_color;
-    background-color: $primary_color;
-
+  .modal-content {
+    .modal-body {
+      .left_side {
+        padding-top: 0px;
+      }
+      h3 {
+        @include font-size(20px);
+        font-weight: bold;
+        padding-left: 0px;
+        padding-top: 0px;
+      }
+    }
   }
 }
