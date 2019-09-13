@@ -170,3 +170,26 @@ a:hover {
   color: #ff7900;
   transition: all 0.3s ease;
 }
+
+@media screen and (max-width: 768px) {
+  /* line 168, ../sass/footer.scss */
+  .footer .copyright_section .secondary_nav {
+    padding-left: 0px;
+  }
+}
+@media screen and (max-width: 425px) {
+  /* line 176, ../sass/footer.scss */
+  .footer {
+    padding-top: 30px;
+  }
+  /* line 179, ../sass/footer.scss */
+  .footer .copyright_section .secondary_nav {
+    padding-top: 10px;
+    padding-left: 0px;
+    float: none;
+  }
+  /* line 183, ../sass/footer.scss */
+  .footer .copyright_section .secondary_nav li {
+    font-size: 0.875rem;
+  }
+}

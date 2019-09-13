@@ -148,22 +148,18 @@ h3 {
 }
 
 /* line 149, ../sass/common.scss */
-.padding_left_none {
+.padding_none {
   padding-left: 0px;
-}
-
-/* line 153, ../sass/common.scss */
-.padding_right_none {
   padding-right: 0px;
 }
 
-/* line 159, ../sass/common.scss */
+/* line 156, ../sass/common.scss */
 .error {
   border: solid 1px #E85A4F !important;
   background-color: #FFE1C8;
 }
 
-/* line 166, ../sass/common.scss */
+/* line 163, ../sass/common.scss */
 #btnScrollToTop {
   font-size: 2.1875rem;
   position: fixed;
@@ -179,14 +175,51 @@ h3 {
   cursor: pointer;
   text-align: center;
   display: none;
+  z-index: 1000;
 }
 
-/* line 183, ../sass/common.scss */
+/* line 181, ../sass/common.scss */
 #btnScrollToTop:hover {
   opacity: 0.9;
 }
 
-/* line 187, ../sass/common.scss */
+/* line 185, ../sass/common.scss */
 #btnScrollToTop:active {
   background-color: #6c6c6c;
+}
+
+@media screen and (max-width: 425px) {
+  /* line 191, ../sass/common.scss */
+  h1 {
+    font-size: 2.5rem;
+    line-height: 80px;
+    padding-top: 15px;
+  }
+
+  /* line 197, ../sass/common.scss */
+  #btnScrollToTop {
+    height: 30px;
+    width: 30px;
+    font-size: 0.9375rem;
+    bottom: 10px;
+    right: 10px;
+  }
+
+  /* line 206, ../sass/common.scss */
+  .section-padded .section_header:before, .section-padded .section_header:after {
+    width: 0%;
+  }
+  /* line 212, ../sass/common.scss */
+  .section-padded .bg_gradient .services_list .service_item {
+    margin-top: 10px;
+  }
+  /* line 216, ../sass/common.scss */
+  .section-padded .bg_gradient .services_list .round-box {
+    margin-bottom: 30px;
+  }
+  /* line 218, ../sass/common.scss */
+  .section-padded .bg_gradient .services_list .round-box .box-inner img {
+    width: 90px;
+    height: 90px;
+  }
 }

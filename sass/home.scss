@@ -16,9 +16,9 @@ h3.text-center {
 .bd-example {
   .carousel-inner {
     .carousel-item {
-      height: 75vh;
-      img {
+      .img {
         background-size: cover;
+        background-position: center center;
       }
       .carousel-caption {
         .text_slide1 {
@@ -93,7 +93,6 @@ h3.text-center {
       .service_item {
         padding-top: 1.5em;
         margin: 50px auto 10px;
-        // background-color: #ffffff;
       }
 
       .service_item:hover .service_icon {
@@ -142,5 +141,61 @@ h3.text-center {
         margin-left: 1em;
       }
     }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .bd-example {
+    .carousel-inner {
+      .carousel-item {
+        .carousel-caption {
+          .text_slide1, .text_slide2, .text_slide3 {
+            padding-bottom: 30px;
+            h5 {
+              @include font-size(25px);
+            }
+          }
+          .text_slide2, .text_slide3 {
+            span {
+              @include font-size(30px);
+            }
+            p {
+              @include font-size(15px);
+              margin-bottom: 0px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .bd-example {
+    .carousel-inner {
+      .carousel-item {
+        .carousel-caption {
+          .text_slide1, .text_slide2, .text_slide3 {
+            padding-bottom: 12px;
+            h5 {
+              @include font-size(15px);
+            }
+          }
+          .text_slide2, .text_slide3 {
+            span {
+              @include font-size(20px);
+            }
+            p {
+              @include font-size(10px);
+              margin-bottom: 0px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .section-padded {
+    padding: 0px;
   }
 }
