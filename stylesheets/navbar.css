@@ -132,3 +132,16 @@
   color: #ff7900;
   border-bottom: 2px solid #ff7900;
 }
+
+@media screen and (max-width: 425px) {
+  /* line 141, ../sass/navbar.scss */
+  .colored_background .nav-container .top-bar .social-list {
+    float: none;
+    padding: 0px;
+  }
+
+  /* line 145, ../sass/navbar.scss */
+  .nav-list .nav-item {
+    padding: 5px;
+  }
+}

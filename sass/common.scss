@@ -146,11 +146,8 @@ h3 {
 
 
 // Top-bar padding left-right
-.padding_left_none {
+.padding_none {
   padding-left: 0px;
-}
-
-.padding_right_none {
   padding-right: 0px;
 }
 
@@ -178,6 +175,7 @@ h3 {
   cursor: pointer;
   text-align: center;
   display: none;
+  z-index: 1000;
 }
 
 #btnScrollToTop:hover {
@@ -186,4 +184,43 @@ h3 {
 
 #btnScrollToTop:active {
   background-color: $tertiary_color;
+}
+
+
+@media screen and (max-width: 425px) {
+  h1 {
+    @include font-size(40px);
+    line-height: 80px;
+    padding-top: 15px;
+  }
+
+  #btnScrollToTop {
+    height: 30px;
+    width: 30px;
+    @include font-size(15px);
+    bottom: 10px;
+    right: 10px;
+  }
+
+  .section-padded {
+    .section_header:before, .section_header:after {
+      width: 0%;
+    }
+
+    .bg_gradient {
+      .services_list {
+        .service_item {
+          margin-top: 10px;
+        }
+
+        .round-box {
+          margin-bottom: 30px;
+          .box-inner img {
+            width: 90px;
+            height: 90px;
+          }
+        }
+      }
+    }
+  }
 }

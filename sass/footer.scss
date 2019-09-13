@@ -161,3 +161,29 @@ a:hover {
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  .footer {
+    .copyright_section {
+      .secondary_nav {
+        padding-left: 0px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .footer {
+    padding-top: 30px;
+    .copyright_section {
+      .secondary_nav {
+        padding-top: 10px;
+        padding-left: 0px;
+        float: none;
+        li {
+            @include font-size(14px);
+        }
+      }
+    }
+  }
+}

@@ -135,3 +135,14 @@
     }
   }
 }
+
+
+@media screen and (max-width: 425px) {
+  .colored_background .nav-container .top-bar .social-list {
+    float: none;
+    padding: 0px;
+  }
+  .nav-list .nav-item {
+    padding: 5px;
+  }
+}
